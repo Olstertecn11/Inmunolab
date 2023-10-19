@@ -1,5 +1,6 @@
 
-import icon from './images/logo_horizontal.png';
+import icon from './../icons/Inmunolab/logo_horizontal.png';
+import './styles/Nav.css';
 
 const Nav = () => {
 	return (
@@ -13,13 +14,19 @@ const Nav = () => {
 					<div className="collapse navbar-collapse justify-content-end" id="navbarNav">
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className="nav-link active" aria-current="page" href="#">Contact</a>
+								<a className="nav-link active" aria-current="page" href="#">Inicio</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">Pricing</a>
+								<a className="nav-link" href="#">Nosotros</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#">Download</a>
+								<a className="nav-link" href="#">Servicios</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#">Galería</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="#">Contacto</a>
 							</li>
 						</ul>
 					</div>

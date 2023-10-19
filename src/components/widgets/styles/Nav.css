@@ -1,0 +1,28 @@
+
+.navbar-nav{
+	margin-right: 12vw !important;
+}
+
+.nav-item{
+	margin: 0vw 2vw !important;
+}
+
+.active{
+	background: blue;
+	color: white !important;
+	font-weight: bold;
+}
+
+.nav-link{
+	border-radius: 35px 35px;
+	padding: 6px 18px !important;
+	font-weight: bold;
+	transition: .20s;
+}
+
+.nav-link:hover{
+	background: blue;
+	color: white !important;
+	font-weight: bold;
+	transition: .50s;
+}
