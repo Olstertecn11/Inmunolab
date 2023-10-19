@@ -8,7 +8,7 @@
 }
 
 .active{
-	background: blue;
+	background: #08abd8;
 	color: white !important;
 	font-weight: bold;
 }
@@ -21,7 +21,7 @@
 }
 
 .nav-link:hover{
-	background: blue;
+	background: #08abd8;
 	color: white !important;
 	font-weight: bold;
 	transition: .50s;
