@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
 	return (
 		<div>
-
 			<nav className="navbar navbar-expand-lg bg-light navbar-light navbar-0">
 				<div className="container-fluid">
 					<p className="navbar-brand text-center mt-3 text-white nav-text">502+59621085 |
@@ -48,9 +47,7 @@ const Nav = () => {
 					</div>
 				</div>
 			</nav>
-
 		</div>
-
 	);
 }
 
