@@ -38,6 +38,6 @@
 .nav-text{
 	color: white !important;
 	font-size: 1.2vw;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Roboto' !important;
 	font-weight: bold;
 }
