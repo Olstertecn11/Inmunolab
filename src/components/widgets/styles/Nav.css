@@ -26,3 +26,18 @@
 	font-weight: bold;
 	transition: .50s;
 }
+
+.navbar-1{
+	height: 6vw;
+}
+.navbar-0{
+	background: #08abd8 !important;
+	height: 3.4vw;
+}
+
+.nav-text{
+	color: white !important;
+	font-size: 1.2vw;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
