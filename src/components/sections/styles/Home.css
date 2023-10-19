@@ -54,3 +54,27 @@
 	background: white !important;
 	color: #08abd8
 }
+
+.sub-row{
+	height: 45% !important;
+}
+
+.img-1{
+	position: relative;
+	height: 12vw;
+	width: 60%;
+	margin-left: 4vw;
+	border-radius: 60%;
+}
+
+.img-1:hover{
+	filter: brightness(80%);
+	cursor: pointer;
+}
+
+.t-1{
+	font-weight: bold;
+	font-size: 1.5vw;
+	font-family: Roboto;
+	margin-top: 1vw;
+}
