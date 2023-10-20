@@ -1,8 +1,15 @@
-# React + Vite
+# Inmunolab Website 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website working on react and was created with vitejs
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Run and Debug Instructions
+
+```bash
+git clone https://github.com/Olstertecn11/Inmunolab.git
+cd Inmunolab
+npm i 
+npm run dev
+
+```
+
