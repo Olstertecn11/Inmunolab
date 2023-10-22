@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
 
 .row{
+  position: relative;
 	width: 100% !important;
 	height: 40vw !important;
 	padding: 0;
@@ -61,9 +62,9 @@
 
 .img-1{
 	position: relative;
-	height: 12vw;
-	width: 60%;
-	margin-left: 4vw;
+	height: 8vw;
+	width: 40%;
+	margin-left: 5.8vw;
 	border-radius: 60%;
 }
 
@@ -77,4 +78,25 @@
 	font-size: 1.5vw;
 	font-family: Roboto;
 	margin-top: 1vw;
+  color: #08ABD8 !important;
 }
+
+
+
+.img-background{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 60%;
+}
+
+.test-tube{
+  width: 10vw;
+}
+
+
+.p-1{
+  width: 70%;
+}
+
+
