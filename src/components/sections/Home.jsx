@@ -6,6 +6,7 @@ import location_icon from './../icons/Inmunolab/location.png';
 import background from './../icons/Inmunolab/wave-haikei2.png';
 import test_tube from './../icons/Inmunolab/test_tube.png';
 import TypeWritter from './../helpers/TypeWritter';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -34,7 +35,7 @@ const Home = () => {
           </p>
           <hr />
           <div className="container">
-            <button className='btn btn-primary text-center btn-nosotros'>Leer Más</button>
+            <Link className='btn btn-primary text-center btn-nosotros' to="/About">Leer Más</Link>
           </div>
         </div>
         <div className="col-md-5">
