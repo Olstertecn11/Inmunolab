@@ -91,9 +91,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="row footer mx-auto">
-        <h2 className='text-white text-center mx-auto mt-4'>Laboratorio Inmunologico de Guatemala</h2>
-      </div>
     </div >
 
   );

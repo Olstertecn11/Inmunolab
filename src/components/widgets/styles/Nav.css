@@ -35,6 +35,14 @@
 	height: 3.4vw;
 }
 
+li{
+  text-decoration: none !important;
+}
+
+li:hover{
+  text-decoration: none !important;
+}
+
 .nav-text{
 	color: white !important;
 	font-size: 1.2vw;

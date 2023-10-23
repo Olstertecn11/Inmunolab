@@ -30,9 +30,9 @@ const About = () => {
       <div className="row" style={{ background: '#F5F9FD' }}>
         <div className="col-md-5 mx-auto column">
           <h2>Visión</h2>
-          <p className='mt-3' style={{ textAlign: 'justify' }}>Nos esforzamos por convertirnos en un referente reconocido a nivel nacional e internacional en el ámbito de los servicios de laboratorio clínico y diagnóstico genético molecular. Buscamos liderar la industria mediante la implementación constante de procesos innovadores y avanzados, manteniéndonos a la vanguardia de la tecnología y las mejores prácticas.</p>
-          <b>Enfoque</b>
-          <p className='mt-2' style={{ textAlign: 'justify' }}>Con un enfoque inquebrantable en la calidad y la excelencia, nos comprometemos a mantener la confiabilidad y precisión de cada uno de nuestros resultados. A través de una combinación de conocimientos especializados y tecnología de punta, aspiramos a proporcionar a nuestros clientes y socios médicos información integral y significativa que impulse avances significativos en el campo de la salud y la medicina.</p>
+          <p className='mt-3' style={{ textAlign: 'justify' }}>Nos esforzamos por convertirnos en un referente sobresaliente en el campo de la salud y los servicios de laboratorio clínico y diagnóstico genético molecular en Guatemala. Buscamos constantemente implementar y adoptar nuevos procesos y tecnologías de vanguardia que garanticen la máxima precisión y confiabilidad de nuestros resultados</p>
+          <b>Compromiso</b>
+          <p className='mt-2' style={{ textAlign: 'justify' }}>Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro trabajo, desde la recolección meticulosa de muestras hasta el análisis detallado y la entrega oportuna de informes precisos. Nos esforzamos por mantenernos a la vanguardia de la innovación en el campo de la inmunología, aplicando prácticas actualizadas y ofreciendo servicios personalizados que se adapten a las necesidades únicas de cada paciente.</p>
         </div>
         <div className="col-md-5 column">
           <img src={img1} className="img-mision" />
@@ -44,10 +44,10 @@ const About = () => {
           <img src={img2} className="img-mision2" />
         </div>
         <div className="col-md-6 mx-auto column">
-          <h2>Misión</h2>
-          <p className='mt-3' style={{ textAlign: 'justify' }}>En Inmunolab, nos comprometemos a trabajar incansablemente en beneficio de la salud y el bienestar de nuestros apreciados pacientes. Nuestra misión es proporcionar resultados de laboratorio clínico confiables y oportunos que sean fundamentales para un diagnóstico preciso y un tratamiento efectivo. Creemos que cada individuo merece acceso a atención médica de calidad que les permita disfrutar de una vida plena y saludable.</p>
+          <h2>Visión</h2>
+          <p className='mt-3' style={{ textAlign: 'justify' }}>Nos esforzamos por convertirnos en un referente sobresaliente en el campo de la salud y los servicios de laboratorio clínico y diagnóstico genético molecular en Guatemala. Buscamos constantemente implementar y adoptar nuevos procesos y tecnologías de vanguardia que garanticen la máxima precisión y confiabilidad de nuestros resultados</p>
           <b>Compromiso</b>
-          <p className='mt-2' style={{ textAlign: 'justify' }}>Al priorizar la precisión, la puntualidad y la ética en cada aspecto de nuestro trabajo, nos esforzamos por ser un pilar de confianza en el viaje de salud de cada paciente. Nos comprometemos a garantizar que tanto nuestros pacientes como sus proveedores de atención médica cuenten con la información y el apoyo necesarios para tomar decisiones informadas y efectivas sobre su salud y bienestar</p>
+          <p className='mt-2' style={{ textAlign: 'justify' }}>Nuestro compromiso con la excelencia se refleja en cada aspecto de nuestro trabajo, desde la recolección meticulosa de muestras hasta el análisis detallado y la entrega oportuna de informes precisos. Nos esforzamos por mantenernos a la vanguardia de la innovación en el campo de la inmunología, aplicando prácticas actualizadas y ofreciendo servicios personalizados que se adapten a las necesidades únicas de cada paciente.</p>
         </div>
 
       </div>
