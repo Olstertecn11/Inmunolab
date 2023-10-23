@@ -2,8 +2,22 @@
 import icon from './../icons/Inmunolab/logo_horizontal.png';
 import './styles/Nav.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 const Nav = () => {
+
+
+  const [active, setActive] = useState('Inicio');
+
+  const handleClick = (linkName) => {
+    setActive(linkName);
+  }
+
+
+
+
+
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-light navbar-light navbar-0">
@@ -29,19 +43,29 @@ const Nav = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" to={'/'} >Inicio</Link>
+                <Link className={active === 'Inicio' ? 'nav-link active' : 'nav-link'}
+                  onClick={() => handleClick('Inicio')}
+                  to={'/'} >
+                  Inicio
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Nosotros</a>
+                <Link to={'/About'}
+                  className={active === 'About' ? 'nav-link active' : 'nav-link'}
+                  onClick={() => handleClick('About')}
+                >Nosotros</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Servicios</a>
+                <Link to={'/Services'}
+                  onClick={() => handleClick('Services')}
+                  className={active === 'Services' ? 'nav-link active' : 'nav-link'}
+                >Servicios</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Galería</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Contacto</a>
+                <Link to={'/Contact'}
+                  onClick={() => handleClick('Contact')}
+                  className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
+                >Contactanos</Link>
               </li>
             </ul>
           </div>
