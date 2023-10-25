@@ -12,6 +12,12 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 
 const Footer = () => {
+
+
+  const handleClick = (link) => {
+    window.location.href = link;
+  }
+
   return (
     <footer className="row footer" style={{ paddingTop: '5%' }}>
       <div className="col-md-5 mt-3">
@@ -35,15 +41,18 @@ const Footer = () => {
       <div className="col-md-3 network">
         <h2 className='text-center footer-text mt-4'>Síguenos</h2>
         <div className="items">
-          <li className='text-center li'> <Link to="https://www.facebook.com/inmunolabgt"><img src={face} style={{ width: '1.8vw' }} /></Link> Facebook</li>
-          <li className='text-center li'> <Link to=""><img src={insta} style={{ width: '1.8vw' }} /></Link> Instagram</li>
-          <li className='text-center li'> <Link to=""><img src={linke} style={{ width: '1.4vw' }} alt="" /></Link> Linkedin</li>
+          <li className='text-center li' onClick={() => handleClick("https://www.facebook.com/inmunolabgt")}> <img src={face} style={{ width: '1.8vw' }} /> Facebook</li>
+          <li className='text-center li' onClick={() => handleClick("https://instagram.com/inmunolabguatemala?igshid=MzRlODBiNWFlZA==")}><img src={insta} style={{ width: '1.8vw' }} /> Instagram</li>
+          <li className='text-center li' onClick={() => handleClick("https://www.linkedin.com/company/inmunolab/")}>
+            <img src={linke} style={{ width: '1.4vw', marginRight: 10 }} alt="" />
+            Linkedin
+          </li>
         </div>
       </div>
       <div className='row row-margin'>
 
       </div>
-    </footer>
+    </footer >
   );
 };
 

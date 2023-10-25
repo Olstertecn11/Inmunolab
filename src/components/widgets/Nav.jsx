@@ -2,19 +2,20 @@
 import icon from './../icons/Inmunolab/logo_horizontal.png';
 import './styles/Nav.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 const Nav = () => {
 
 
   const [active, setActive] = useState('Inicio');
 
-  const handleClick = (linkName) => {
-    setActive(linkName);
-  }
+  let location = useLocation();
+  let new_location = location.pathname === '/' ? 'Inicio' : location.pathname.substring(1);
 
-
-
+  useEffect(() => {
+    setActive(new_location);
+  }, [new_location]);
 
 
 
@@ -44,7 +45,6 @@ const Nav = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className={active === 'Inicio' ? 'nav-link active' : 'nav-link'}
-                  onClick={() => handleClick('Inicio')}
                   to={'/'} >
                   Inicio
                 </Link>
@@ -52,18 +52,15 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to={'/About'}
                   className={active === 'About' ? 'nav-link active' : 'nav-link'}
-                  onClick={() => handleClick('About')}
                 >Nosotros</Link>
               </li>
               <li className="nav-item">
                 <Link to={'/Services'}
-                  onClick={() => handleClick('Services')}
                   className={active === 'Services' ? 'nav-link active' : 'nav-link'}
                 >Servicios</Link>
               </li>
               <li className="nav-item">
                 <Link to={'/Contact'}
-                  onClick={() => handleClick('Contact')}
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >Contactanos</Link>
               </li>

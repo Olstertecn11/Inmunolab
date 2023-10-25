@@ -1,10 +1,20 @@
 
 import './styles/Services.css'
 import img from './../icons/Inmunolab/examinando.jpg';
+import img2 from './../icons/Inmunolab/';
+import Fade from 'react-reveal/Fade';
+import { useState } from 'react';
 
 
 
 const Services = () => {
+
+
+  function changeImage(service) {
+    if (service == "Inmunología") {
+      setImageBox()
+    }
+  }
 
   const handleClick = (event) => {
     const lastButtons = document.querySelectorAll(".active-b");
@@ -29,17 +39,21 @@ const Services = () => {
   return (
     <>
       <div className="row services-row">
-        <h2 className='title-services'>Nuestros Servicios</h2>
+        <Fade left>
+          <h2 className='title-services'>Nuestros Servicios</h2>
+        </Fade >
         <span className='line-services'></span>
         <div className="col-md-5 mx-auto">
-          <div className="card-body service-card">
-            <img src="https://s3-pagapoco-files-dev.s3.us-east-2.amazonaws.com/profile-images/pagapoco_user_oferta9914posi1.jpeg" />
-            <div className="buttons">
-              <button className='btn active-b' onClick={handleClick}>Inmunología</button>
-              <button className='btn' onClick={handleClick}>Química</button>
-              <button className='btn' onClick={handleClick}>Hematología</button>
+          <Fade clear>
+            <div className="card-body service-card">
+              <img src="https://s3-pagapoco-files-dev.s3.us-east-2.amazonaws.com/profile-images/pagapoco_user_oferta9914posi1.jpeg" />
+              <div className="buttons">
+                <button className='btn active-b' onClick={handleClick}>Inmunología</button>
+                <button className='btn' onClick={handleClick}>Química</button>
+                <button className='btn' onClick={handleClick}>Hematología</button>
+              </div>
             </div>
-          </div>
+          </Fade >
         </div>
         <div className="col-md-5 mx-auto row-text-s">
           <p className='services-text p-show' id='Inmunología'>
