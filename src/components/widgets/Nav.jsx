@@ -31,10 +31,16 @@ const Nav = () => {
               <li className="nav-item">
                 <p className='mt-3 text-white nav-text'>4a Av. 13-67 zona 9, Ciudad de Guatemala</p>
               </li>
+              <li className='mt-3 mr-4 text-white nav-text'>
+                |
+              </li>
+              <li >
+                <Link className='mt-3 text-white nav-text' to="https://api.whatsapp.com/send?phone=50240372071"> <i className='fab fa-whatsapp'> </i> WhatsApp</Link>
+              </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </div >
+      </nav >
       <nav className="navbar navbar-expand-lg bg-light navbar-light navbar-1">
         <div className="container-fluid">
           <a className="navbar-brand"><img src={icon} width={190} /></a>
@@ -68,7 +74,7 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </div >
   );
 }
 

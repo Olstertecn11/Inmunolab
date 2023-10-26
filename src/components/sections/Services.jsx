@@ -7,18 +7,25 @@ import { useState, useEffect } from 'react';
 
 
 const Services = () => {
+  var images = [
+    "https://s3-pagapoco-files-dev.s3.us-east-2.amazonaws.com/profile-images/pagapoco_user_oferta9914posi1.jpeg",
+    "https://quimicafacil.net/wp-content/uploads/2021/06/Notas-de-quimica-dest-1.jpg",
+    "https://s1.eestatic.com/2019/06/11/ciencia/salud/salud_405470340_125254447_1706x1280.jpg"
+  ]
+
+  const [image, setImage] = useState(images[0]);
+
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  function changeImage(service) {
-    if (service == "Inmunología") {
-      setImageBox()
-    }
+  function changeImage(option) {
+    setImage(images[option]);
   }
 
   const handleClick = (event) => {
+    changeImage(event.target.id);
     const lastButtons = document.querySelectorAll(".active-b");
     lastButtons.forEach(button => {
       button.classList.remove("active-b");
@@ -48,11 +55,11 @@ const Services = () => {
         <div className="col-md-5 mx-auto">
           <Fade clear>
             <div className="card-body service-card">
-              <img src="https://s3-pagapoco-files-dev.s3.us-east-2.amazonaws.com/profile-images/pagapoco_user_oferta9914posi1.jpeg" />
+              <img src={image} />
               <div className="buttons">
-                <button className='btn active-b' onClick={handleClick}>Inmunología</button>
-                <button className='btn' onClick={handleClick}>Química</button>
-                <button className='btn' onClick={handleClick}>Hematología</button>
+                <button id="0" className='btn active-b' onClick={handleClick}>Inmunología</button>
+                <button id="1" className='btn' onClick={handleClick}>Química</button>
+                <button id="2" className='btn' onClick={handleClick}>Hematología</button>
               </div>
             </div>
           </Fade >

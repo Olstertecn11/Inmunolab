@@ -73,7 +73,7 @@ const Home = () => {
           </div>
           <div className="col-md-3 mx-auto">
             <div className="card-body">
-              <Link to='/Contact'>
+              <Link to='https://maps.app.goo.gl/dj59aHDPvRWrR4mi7'>
                 <img className='img-1' src={location_icon} />
               </Link>
               <h2 className='text-center text-primary t-1'>Ubicación</h2>
