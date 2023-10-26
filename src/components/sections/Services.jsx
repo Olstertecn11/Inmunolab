@@ -47,7 +47,7 @@ const Services = () => {
   return (
     <>
       <div className="row services-row">
-        <h2 className='title-services'>Nuestros Servicios</h2>
+        <h2 className='title-services animate__animated animate__fadeInLeft'>Nuestros Servicios</h2>
         <span className='line-services'></span>
         <div className="col-md-5 mx-auto">
           <div className="card-body service-card">
@@ -59,7 +59,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-5 mx-auto row-text-s">
+        <div className="col-md-5 mx-auto row-text-s animate__animated animate__fadeInLeft">
           <p className='services-text p-show' id='Inmunología'>
             A través de tecnologías de vanguardia y métodos de diagnóstico avanzados, realizamos una evaluación exhaustiva del sistema inmunológico de cada paciente, identificando de manera precisa y precisa posibles desequilibrios y disfunciones. Nuestros servicios incluyen pruebas especializadas de alergia, perfiles inmunológicos completos, evaluaciones de respuesta inmune a enfermedades específicas y terapias personalizadas diseñadas para mejorar la función inmunológica y promover la salud a largo plazo.
           </p>

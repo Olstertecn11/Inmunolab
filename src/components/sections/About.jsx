@@ -12,9 +12,9 @@ const About = () => {
   return (
     <>
       <div className="row">
-        <h2 className='title-about'>Acerca de Nosotros</h2>
+        <h2 className='title-about animate__animated animate__slideInDown'>Acerca de Nosotros</h2>
         <span className='line'></span>
-        <p className='p-about'>
+        <p className='p-about animate__animated animate__slideInLeft'>
           Somos un laboratorio de análisis clínico Nivel IV, especializado en el área de inmunología, puntualmente damos el soporte
           necesario en el diagnóstico de enfermedades inmunes y autoinmunes, contando también con todo el menú de pruebas
           bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.

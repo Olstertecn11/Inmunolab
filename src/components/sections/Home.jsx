@@ -17,20 +17,20 @@ const Home = () => {
 
   return (
     <>
-      <div className="row">
+      <div className="row ">
         <img className='image' src="https://laboratoriosedulab.com/wp-content/uploads/2020/06/Edulab_servicios_Inmunologia.jpg" alt="" />
-        <h1 className='title'>INMUNOLAB</h1>
-        <p className='p-0'>Somos un laboratorio de análisis clínico Nivel IV, especializado en el área de inmunología, puntualmente damos el soporte
+        <h1 className='title animate__animated animate__fadeInLeft'>INMUNOLAB</h1>
+        <p className='p-0 animate__animated animate__fadeInDown'>Somos un laboratorio de análisis clínico Nivel IV, especializado en el área de inmunología, puntualmente damos el soporte
           necesario en el diagnóstico de enfermedades inmunes y autoinmunes, contando también con todo el menú de pruebas
           bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.</p>
         <Link className='btn btn-0' to="/About">Conocer Más</Link>
       </div>
 
-      <div className="row services">
+      <div className="row services animate__animated animate__fadeInLeft">
         <div className='col-md-6 nosotros mx-auto'>
-          <h2 className='text-primary text-center'>Nosotros</h2>
+          <h2 className='text-primary text-center animate__animated animate__slideInDown'>Nosotros</h2>
           <br />
-          <p className='p-1 text-center mx-auto'>
+          <p className='p-1 text-center mx-auto animate__animated animate__slideInDown'>
             Por más de 44 años hemos dado un servicio seguro, confiable y de calidad, siendo históricamente un laboratorio de alta
             referencia.
           </p>
@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <img src={background} className="img-background mx-auto" />
       </div >
-      <div className="row sub-row" >
+      <div className="row sub-row animate_fade" >
         <img src={background} className="img-background2 mx-auto" />
         <div className="col-md-3 mx-auto">
           <div className="card-body">

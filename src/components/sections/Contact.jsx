@@ -9,9 +9,9 @@ const Contact = () => {
       <div className="row row-contact">
         <div className="col-md-5  col0">
           <div className="card-body card-0">
-            <h2 className="">¡Nos encataria saber de ti!</h2>
+            <h2 className="animate__animated animate__fadeInLeft">¡Nos encataria saber de ti!</h2>
             <div className="form-group">
-              <p className="">Si tienes alguna pregunta, inquietud o simplemente deseas obtener más información sobre nuestros servicios de vanguardia en inmunología, no dudes en ponerte en contacto con nosotros.</p>
+              <p className="animate__animated animate__fadeInLeft">Si tienes alguna pregunta, inquietud o simplemente deseas obtener más información sobre nuestros servicios de vanguardia en inmunología, no dudes en ponerte en contacto con nosotros.</p>
             </div>
             <br />
             <p className=''>
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
         <div className="col-md-4 col1">
           <div className="card-body card-1">
-            <h2 className="card-title">Contactanos</h2>
+            <h2 className="card-title animate__animated animate__fadeInLeft">Contactanos</h2>
             <br />
             <div className="form-group">
               <div className="form-group">
