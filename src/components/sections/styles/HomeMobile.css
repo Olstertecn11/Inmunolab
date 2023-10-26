@@ -1,0 +1,71 @@
+@media screen and (max-width: 991px) and (orientation:portrait){
+
+  .navbar-0{
+    height: 8vw !important;
+  }
+  .navbar-1{
+    height: 14vw !important;
+    padding: 0px !important;
+    z-index: 1000;
+  }
+
+  .nav-text{
+    top: 0%;
+    height: 2vw;
+    font-size: 3vw !important;
+    margin-top: 0px !important;
+  }
+
+  .navbar{
+    padding: 0 1rem;
+  }
+
+  .row{
+    height: 130vw !important;
+  }
+
+  .title{
+    font-size: 14vw;
+    top: 6%;
+  }
+
+  .p-0{
+    top: 22%;
+    width: 80%;
+    font-size: 4.4vw;
+    font-weight: 200;
+  }
+
+  .btn-0{
+    top: 75%;
+    width: 32vw;
+    height: 10vw;
+    font-size: 4vw;
+    padding-top: 2vw;
+  }
+
+  #navbarNav2{
+    display: none;
+    height: 8vw;
+  }
+
+  .show .navbar-nav{
+    background: white;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .nav-link.active{
+    color: #002B5C !important ;
+    color: #002B5C !important ;
+  }
+
+  .nav-link{
+    background: transparent !important;
+    color: #557192 !important;
+    width: 40%;
+  }
+
+
+
+}

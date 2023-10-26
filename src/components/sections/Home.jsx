@@ -1,5 +1,6 @@
 
 import './styles/Home.css';
+import './styles/HomeMobile.css';
 import services_icon from './../icons/Inmunolab/health.png';
 import health_icon from './../icons/Inmunolab/consul.png';
 import location_icon from './../icons/Inmunolab/location.png';

@@ -44,7 +44,8 @@ const Nav = () => {
       <nav className="navbar navbar-expand-lg bg-light navbar-light navbar-1">
         <div className="container-fluid">
           <a className="navbar-brand"><img src={icon} width={190} /></a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
