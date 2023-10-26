@@ -1,6 +1,10 @@
 
 .navbar-nav{
-	margin-right: 12vw !important;
+	margin-right: 10vw !important;
+}
+
+.nav-0{
+  margin-right: 0vw !important;
 }
 
 .nav-item{

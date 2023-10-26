@@ -23,11 +23,11 @@ const Nav = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-light navbar-light navbar-0">
         <div className="container-fluid">
-          <p className="navbar-brand text-center mt-3 text-white nav-text">502+23626887 |
-            <a className='text-white nav-text' > info@inmunolab.gt</a>
+          <p className="navbar-brand text-center mt-3 text-white nav-text"> <Link to="" className='text-white nav-text mr-2'> +502 23626887</Link> |
+            <a className='text-white nav-text ml-2' > info@inmunolab.gt</a>
           </p>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul className="navbar-nav">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav2">
+            <ul className="navbar-nav nav-0">
               <li className="nav-item">
                 <p className='mt-3 text-white nav-text'>4a Av. 13-67 zona 9, Ciudad de Guatemala</p>
               </li>

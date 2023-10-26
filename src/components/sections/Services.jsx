@@ -1,14 +1,16 @@
 
 import './styles/Services.css'
 import img from './../icons/Inmunolab/examinando.jpg';
-import img2 from './../icons/Inmunolab/';
 import Fade from 'react-reveal/Fade';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 
 const Services = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   function changeImage(service) {
     if (service == "Inmunología") {

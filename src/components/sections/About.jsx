@@ -3,8 +3,12 @@ import './styles/About.css';
 import img1 from './../icons/Inmunolab/tomando_muestra.jpg';
 import img2 from './../icons/Inmunolab/microscopio.jpg';
 import Fade from 'react-reveal/Fade';
+import { useEffect } from 'react';
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="row">

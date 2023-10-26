@@ -49,6 +49,7 @@
 	width: 12vw;
 	font-size: 1.4vw;
 	height: 4vw;
+  padding-top: 0.9vw;
 }
 
 .btn-0:hover{
@@ -129,3 +130,25 @@
   background: #002B5C;
   height: 10vw !important;
 }
+
+.carousel-caption{
+  position: absolute;
+  backdrop-filter: blur(8px);
+  top: 50%;
+}
+
+
+.carousel-caption h5{
+  font-weight: bold;
+  color: #002B5C;
+  font-size: 4vw
+}
+
+.carousel-caption p{
+  color: #002B5C;
+  font-size: 2.0vw;
+  font-weight: 400;
+}
+
+
+

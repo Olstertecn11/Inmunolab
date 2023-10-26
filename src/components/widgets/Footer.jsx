@@ -27,7 +27,7 @@ const Footer = () => {
         </h2>
         <div className="items items-0">
           <p className="footer-subtext"> <img src={location} style={{ width: '1.4vw' }} /> 4a Av. 13-67 zona 9, Ciudad de Guatemala</p>
-          <p className="footer-subtext"> <img src={phone_icon} style={{ width: '1.4vw' }} /> 59621085</p>
+          <p className="footer-subtext"> <img src={phone_icon} style={{ width: '1.4vw' }} /> +502 23626887</p>
         </div>
       </div>
       <div className="col-md-3 links">
@@ -50,7 +50,6 @@ const Footer = () => {
         </div>
       </div>
       <div className='row row-margin'>
-
       </div>
     </footer >
   );
