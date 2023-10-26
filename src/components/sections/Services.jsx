@@ -1,7 +1,6 @@
 
 import './styles/Services.css'
 import img from './../icons/Inmunolab/examinando.jpg';
-import Fade from 'react-reveal/Fade';
 import { useState, useEffect } from 'react';
 
 
@@ -48,21 +47,17 @@ const Services = () => {
   return (
     <>
       <div className="row services-row">
-        <Fade left>
-          <h2 className='title-services'>Nuestros Servicios</h2>
-        </Fade >
+        <h2 className='title-services'>Nuestros Servicios</h2>
         <span className='line-services'></span>
         <div className="col-md-5 mx-auto">
-          <Fade clear>
-            <div className="card-body service-card">
-              <img src={image} />
-              <div className="buttons">
-                <button id="0" className='btn active-b' onClick={handleClick}>Inmunología</button>
-                <button id="1" className='btn' onClick={handleClick}>Química</button>
-                <button id="2" className='btn' onClick={handleClick}>Hematología</button>
-              </div>
+          <div className="card-body service-card">
+            <img src={image} />
+            <div className="buttons">
+              <button id="0" className='btn active-b' onClick={handleClick}>Inmunología</button>
+              <button id="1" className='btn' onClick={handleClick}>Química</button>
+              <button id="2" className='btn' onClick={handleClick}>Hematología</button>
             </div>
-          </Fade >
+          </div>
         </div>
         <div className="col-md-5 mx-auto row-text-s">
           <p className='services-text p-show' id='Inmunología'>
