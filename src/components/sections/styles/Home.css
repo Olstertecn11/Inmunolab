@@ -130,11 +130,14 @@
   background: #002B5C;
   height: 10vw !important;
 }
+.carousel-inner{
+  height: 100% !important;
+}
 
 .carousel-caption{
   position: absolute;
   backdrop-filter: blur(8px);
-  top: 50%;
+  bottom: 30% !important;
 }
 
 
