@@ -6,6 +6,7 @@ import Services from './components/sections/Services';
 import Contact from './components/sections/Contact';
 import Nav from './components/widgets/Nav';
 import Footer from './components/widgets/Footer';
+import UpButton from './components/widgets/UpButton';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/Services' exec element={<Services />} />
         <Route path='/Contact' exec element={<Contact />} />
       </Routes>
+      <UpButton />
       <Footer />
     </div>
   );

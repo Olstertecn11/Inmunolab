@@ -2,6 +2,7 @@
 import './styles/About.css';
 import img1 from './../icons/Inmunolab/tomando_muestra.jpg';
 import img2 from './../icons/Inmunolab/microscopio.jpg';
+import img3 from './../icons/Inmunolab/objetivos.jpg';
 import Fade from 'react-reveal/Fade';
 import { useEffect } from 'react';
 
@@ -58,6 +59,24 @@ const About = () => {
             <p className='mt-3' style={{ textAlign: 'justify' }}>Brindar apoyo diagnóstico con equipos de alta tecnología y especializado, al equipo médico, con profesionales de laboratorio clínico comprometidos al servicio de la salud.</p>
             <b>Compromiso</b>
             <p className='mt-2' style={{ textAlign: 'justify' }}>Al priorizar la precisión, la puntualidad y la ética en cada aspecto de nuestro trabajo, nos esforzamos por ser un pilar de confianza en el viaje de salud de cada paciente. Nos comprometemos a garantizar que tanto nuestros pacientes como sus proveedores de atención médica cuenten con la información y el apoyo necesarios para tomar decisiones informadas y efectivas sobre su salud y bienestar</p>
+          </div>
+          <span className='line-sep'></span>
+        </Fade >
+      </div>
+      <div className="row" style={{ background: '#F5F9FD' }}>
+        <Fade clear>
+          <div className="col-md-5 mx-auto column">
+            <h2>Objetivos</h2>
+            <p className='mt-3' style={{ textAlign: 'justify' }}>
+              Ofrecer servicios de exámenes de laboratorio de calidad y excelencia al público en general, creando fidelidad y confianza a través de una atención al cliente excepcional, una comunicación clara y resultados precisos.
+            </p>
+            <b>Innovación</b>
+            <p className='mt-2' style={{ textAlign: 'justify' }}>
+              Continuar a la vanguardia en innovación y desarrollo en el campo de los exámenes de laboratorio para proporcionar un impacto significativo en la salud y el bienestar de las personas.
+            </p>
+          </div>
+          <div className="col-md-5 column">
+            <img src={img3} className="img-mision" />
           </div>
         </Fade >
       </div>
