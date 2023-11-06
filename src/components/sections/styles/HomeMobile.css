@@ -4,7 +4,7 @@
     height: 8vw !important;
   }
   .navbar-1{
-    height: 14vw !important;
+    height: 15vw !important;
     padding: 0px !important;
     z-index: 1000;
   }
@@ -65,6 +65,61 @@
     color: #557192 !important;
     width: 40%;
   }
+
+
+	.services{
+		height: 280vw !important;
+	}
+
+	.test-tube{
+		width: 91vw;
+	}
+
+	.btn-nosotros{
+		margin-left: 26vw;
+	}
+
+	.img-background, .img-background2{
+		display: none;
+	}
+
+	.upButton{
+		width: 10vw !important;
+		height: 10vw !important;
+		padding: 0px !important;
+	}
+
+
+	.sub-row{
+		height: 164vw !important;
+	}
+
+	.img-1{
+		height: 24vw;
+		width: 24vw;
+	}
+
+	.card-body a{
+		margin-left: 21vw;
+	}
+
+	.t-1{
+		font-size: 4.5vw;
+	}
+
+  .carousel-row{
+		height: 120vw !important;
+	}
+
+	.carousel-item{
+		height: 100%;
+	}
+
+	.carousel-item img{
+		filter: brightness(60%);
+		object-fit: cover;
+	}
+
 
 
 

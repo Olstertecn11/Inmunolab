@@ -68,3 +68,71 @@ li{
   background: #002B5C;
   opacity: 0.9;
 }
+
+
+@media screen and (max-width: 991px) and (orientation:portrait){
+	/* === FOOTER ==*/
+	.footer{
+		height: 100vw !important;
+	}
+
+	.icon{
+		width: 6.6vw;
+	}
+
+	.items-0{
+		margin-left: 0vw;
+		margin-top: 2.9vw;
+		width: 100%;
+		border-top: 2px solid #08ABD8;
+		padding-top: 2vw;
+		padding-right: 4vw;
+	}
+
+	.footer-subtext{
+		font-size: 85%;
+	}
+
+	.footer-subtext img{
+		widows: 4.0vw;
+	}
+
+	.links{
+		display: none;
+	}
+
+	.footer-text{
+		font-size: 5vw !important;
+	}
+
+	.network .items li {
+		font-size: 4vw;
+	}
+
+	.network .items li img{
+		width: 3vw !important;
+		margin: 0px !important;
+	}
+
+	.network .footer-text{
+		width: 10vw !important;
+	}
+
+	.last{
+		margin-right: 2vw;
+		padding-right: 2vw;
+		width: 4vw !important;
+	}
+	.network .items li .last{
+		width: 5vw !important;
+	}
+
+	.row-margin{
+		top: 10%;
+	}
+
+}
+
+
+
+
