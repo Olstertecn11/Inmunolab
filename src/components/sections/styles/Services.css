@@ -90,3 +90,53 @@
   background: #08ABD8;
   position: absolute;
 }
+
+
+@media screen and (max-width: 991px) and (orientation:portrait){
+  .services-row{
+    height: 220vw !important;
+  }
+
+  .title-services{
+    font-size: 8vw;
+  }
+
+  .line-services{
+    top: 10%;
+    height: 3vw;
+  }
+
+  .services-row .col-md-5{
+    margin-top: 32vw;
+  }
+
+  .service-card img {
+    margin-left: 11vw;
+    margin-bottom: 2vw;
+    position: relative;
+    width: 70vw;
+    height: 50vw;
+    z-index: 10;
+    border-radius: 15px;
+  }
+
+  .service-card{
+    padding: 0px !important;
+  }
+
+  .row-text-s{
+    margin-top: 0px !important;
+  }
+
+  .p-show{
+    font-size: 5vw;
+    backdrop-filter: blur(8px) !important;
+  }
+
+  .line-p{
+    bottom: 4%;
+    height: 1.5vw;
+  }
+
+
+}
