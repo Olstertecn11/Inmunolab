@@ -80,3 +80,28 @@ filter: drop-shadow(30px 10px 8px #4444dd);
 .column p, .column h2, .column b{
   color: #002B5C;
 }
+
+
+@media screen and (max-width: 991px) and (orientation:portrait){
+  .title-about{
+    top: 2%;
+    font-size: 9vw;
+  }
+
+  .line{
+    top: 6%;
+    height: 4vw;
+  }
+
+  .p-about{
+    width: 90%;
+    top: 10%;
+    left: 5%;
+    font-size: 5vw;
+    backdrop-filter: blur(30px);
+  }
+
+  .about-row{
+    height: 330vw !important;
+  }
+}

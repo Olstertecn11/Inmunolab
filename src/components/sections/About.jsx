@@ -11,7 +11,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="row">
+      <div className="row about-row">
         <h2 className='title-about animate__animated animate__slideInDown'>Acerca de Nosotros</h2>
         <span className='line'></span>
         <p className='p-about animate__animated animate__slideInLeft'>
