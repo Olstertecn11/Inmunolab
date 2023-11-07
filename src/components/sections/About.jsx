@@ -32,7 +32,7 @@ const About = () => {
         </p>
         <img className="bg-img" src="https://www.comunidad.madrid/sites/default/files/img/personalidades/la_comunidad_ha_tomado_mas_de_18.500_muestras_para_conocer_el_estado_inmunologico_frente_al_covid-19_en_los_centros_socio-sanitarios_2.jpg" />
       </div>
-      <div className="row" style={{ background: '#F5F9FD' }}>
+      <div className="row rs1" style={{ background: '#F5F9FD' }}>
         <div className="col-md-5 mx-auto column">
           <h2>Visión</h2>
           <p className='mt-3' style={{ textAlign: 'justify' }}>Ser un laboratorio clínico de referencia, especializado y de alto rendimiento, con un equipo profesional para brindar resultados confiables y eficientes, garantizando el diagnóstico y veracidad de los resultados.</p>
@@ -44,7 +44,7 @@ const About = () => {
         </div>
         <span className='line-sep'></span>
       </div>
-      <div className="row" style={{ background: '#F5F9FD' }}>
+      <div className="row rs2" style={{ background: '#F5F9FD' }}>
         <div className="col-md-4 mx-auto column">
           <img src={img2} className="img-mision2" />
         </div>
@@ -56,7 +56,7 @@ const About = () => {
         </div>
         <span className='line-sep'></span>
       </div>
-      <div className="row" style={{ background: '#F5F9FD' }}>
+      <div className="row rs3" style={{ background: '#F5F9FD' }}>
         <div className="col-md-5 mx-auto column">
           <h2>Objetivos</h2>
           <p className='mt-3' style={{ textAlign: 'justify' }}>

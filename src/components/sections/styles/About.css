@@ -104,4 +104,47 @@ filter: drop-shadow(30px 10px 8px #4444dd);
   .about-row{
     height: 330vw !important;
   }
+
+  .column h2{
+    font-weight: bold;
+    font-size: 9vw;
+  }
+
+  .column p{
+    font-size: 5vw;
+  }
+
+  .column b{
+    font-size: 6vw;
+    font-style: italic;
+  }
+
+  .rs1, .rs2{
+    height: 260vw !important;
+  }
+
+  .rs3{
+    height: 210vw !important;
+  }
+
+  .img-mision {
+    width: 46vw;
+    height: 48vw;
+    object-fit: cover;
+    margin-top: -30vw;
+    margin-left: 22vw;
+    object-position: right bottom;
+    border-radius: 55px 55px;
+  }
+
+  .img-mision2 {
+    width: 46vw;
+    height: 48vw;
+    object-fit: cover;
+    margin-top: -10vw;
+    margin-left: 22vw;
+    object-position: right bottom;
+    border-radius: 55px 55px;
+  }
+
 }
