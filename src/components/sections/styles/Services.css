@@ -34,6 +34,11 @@
   z-index: -1;
 }
 
+.row-text-s{
+  backdrop-filter: blur(8px);
+  height: 60%;
+}
+
 .buttons{
   margin-left: 2.4vw;
 }
@@ -83,7 +88,7 @@
 
 .line-p{
   border-radius: 34px;
-  bottom: 28%;
+  bottom: 8%;
   width: 90%;
   margin-left: 1vw;
   height: 0.4vw;

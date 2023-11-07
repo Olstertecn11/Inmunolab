@@ -73,6 +73,11 @@ const Nav = () => {
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >Contactanos</Link>
               </li>
+              <li className="nav-item">
+                <Link to="https://github.com/Olstertecn11/Inmunolab/raw/master/Cata%CC%81logo%20de%20Referencia.pdf" target="_blank" download
+                  className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
+                >Catálogo</Link>
+              </li>
             </ul>
           </div>
         </div>
