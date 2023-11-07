@@ -72,7 +72,8 @@
 	}
 
 	.test-tube{
-		width: 91vw;
+		width: 92vw;
+    margin-left: 4vw;
 	}
 
 	.btn-nosotros{
@@ -100,8 +101,9 @@
 	}
 
 	.card-body a{
-		margin-left: 21vw;
+		margin-left: 24vw !important;
 	}
+	
 
 	.t-1{
 		font-size: 4.5vw;
