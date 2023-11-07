@@ -30,7 +30,7 @@ const Contact = () => {
             </p>
             <br />
             <hr />
-            <div style={{ display: 'flex', justifyContent: 'center' }} className="mt-4">
+            <div style={{ display: 'flex', justifyContent: 'center' }} className="mt-4 social-media">
               <Link to="https://www.facebook.com/inmunolabgt">
                 <i className="fa-brands fa-facebook fa-fw" style={{ fontSize: '24px', margin: '10px' }}></i>
               </Link>

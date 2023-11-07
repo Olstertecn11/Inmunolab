@@ -116,6 +116,57 @@ textarea{
 
 
 
+@media screen and (max-width: 991px) and (orientation:portrait){
+  .row-contact{
+    height: 230vw !important;
+  }
+
+  .col0{
+    margin: 0px;
+    height: 90vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-0 h2{
+    font-size: 6vw;
+  }
+
+  .card-0 p{
+    font-size: 3.4vw;
+  }
+
+  .card-0 p a{
+    margin-left: 0px;
+  }
+  .card-0 br{
+    display: none;
+  }
+
+  .social-media{
+    width: 78%;
+  }
+  .contenedor{
+    margin-top: 4vw;
+  }
+
+  .card-1{
+    border-radius: 8px;
+  }
+
+  .map{
+    border-radius: 6px;
+    height: 100%;
+  }
+
+  ._col1 br, ._col1 h3{
+    display: none;
+  }
+
+  .qr-img{
+    margin-top: 10vw;
+    margin-left: 24vw;
+  }
+}
 
 
 
