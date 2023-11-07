@@ -15,8 +15,11 @@ const Nav = () => {
 
   useEffect(() => {
     setActive(new_location);
+    var items = document.querySelectorAll(".collapse");
+    items.forEach(function(item) {
+      item.classList.remove('show');
+    });
   }, [new_location]);
-
 
 
   return (
