@@ -21,29 +21,24 @@ const Home = () => {
       <div className="row ">
         <img className='image' src="https://laboratoriosedulab.com/wp-content/uploads/2020/06/Edulab_servicios_Inmunologia.jpg" alt="" />
         <h1 className='title animate__animated animate__fadeInLeft'>INMUNOLAB</h1>
-        <p className='p-0 animate__animated animate__fadeInDown'>Somos un laboratorio de análisis clínico Nivel IV, especializado en el área de inmunología, puntualmente damos el soporte
-          necesario en el diagnóstico de enfermedades inmunes y autoinmunes, contando también con todo el menú de pruebas
-          bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.</p>
+        <p className='p-0 animate__animated animate__fadeInDown'>
+          Somos un laboratorio de análisis clínico nivel IV, pionero en referencias hospitalarias y de laboratorios,  especializado en el área de inmunología.
+          Damos el soporte necesario en el diagnostico de enfermedades inmunes y autoinmunes. Para lo cual contamos con una amplia gama de pruebas bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.
+        </p>
         <Link className='btn btn-0' to="/About">Conocer Más</Link>
       </div>
 
       <div className="row services animate__animated animate__fadeInLeft">
         <div className='col-md-6 nosotros mx-auto'>
           <h2 className='text-primary text-center animate__animated animate__slideInDown'>Nosotros</h2>
-          <br />
           <p className='p-1 text-center mx-auto animate__animated animate__slideInDown'>
-            Por más de 44 años hemos dado un servicio seguro, confiable y de calidad, siendo históricamente un laboratorio de alta
-            referencia.
+            Emitimos resultados de forma oportuna con respaldo de garantía de calidad de la AQBG (Asociación de Químicos Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación Externa de Calidad). Quienes evalúan y corroboran la certeza de los exámenes clínicos que se realizan.
           </p>
           <p className='p-1 text-center mx-auto'>
-            <b>Inmunolab</b> cuenta con una amplia experiencia a lo largo de los años, en metodología y tecnología
-            avanzada necesaria para realizar pruebas de diagnóstico especializada, así mismo como exámenes de
-            rutina general
+            Somos un laboratorio con proyección social. Que da soporte a distintas instituciones del sector público y privado, para ayudar aquellos guatemaltecos de escasos recursos que no pueden costear la totalidad de las pruebas de la orden de laboratorio emitida por el Médico tratante.
           </p>
           <hr />
-          <div className="container">
-            <Link className='btn btn-primary text-center btn-nosotros' to="/About">Leer Más</Link>
-          </div>
+
         </div>
         <div className="col-md-5">
           <img src={nosotros_img} className='test-tube' />
@@ -85,15 +80,15 @@ const Home = () => {
             <div className="carousel-item active">
               <img style={{ height: '100%', width: '100%' }} className="d-block " src="https://www.birmingham.ac.uk/CachedImage.axd?ImageName=laboratory-3827745-1920.jpg&ImageWidth=1920&ImageHeight=1280&ImageVersionID=1969570&ImageModified=20200902121951" alt="First slide" />
               <div className="carousel-caption d-none d-md-block first-block">
-                <h5>Personal Capacitado</h5>
-                <p>Contamos con profesionales tecnicamente calificados y comprometidos</p>
+                <h5>Personal Capacitado y Equipo de Vanguardia</h5>
+                <p>Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.</p>
               </div>
             </div>
             <div className="carousel-item">
               <img style={{ height: '100%', width: '100%' }} className="d-block " src="https://www.fcv.org/co/images/la-ruta-de-la-vida/unidad-de-laboratorios/laboratorio-clinico-3.webp" alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Tecnólogia</h5>
-                <p>Contamos con un sistema innovador para consulta de resultados</p>
+                <p>Innovamos constantemente en equipos de alta tecnología y a la vanguardia de la salud.</p>
               </div>
             </div>
             <div className="carousel-item">

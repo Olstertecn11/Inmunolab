@@ -26,7 +26,7 @@ const Nav = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-light navbar-light navbar-0">
         <div className="container-fluid">
-          <p className="navbar-brand text-center mt-3 text-white nav-text"> <Link to="" className='text-white nav-text mr-2'> +502 23626887</Link> |
+          <p className="navbar-brand text-center mt-3 text-white nav-text">
             <a className='text-white nav-text ml-2' > info@inmunolab.gt</a>
           </p>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav2">
@@ -35,6 +35,12 @@ const Nav = () => {
                 <p className='mt-3 text-white nav-text'>4a Av. 13-67 zona 9, Ciudad de Guatemala</p>
               </li>
               <li className='mt-3 mr-4 text-white nav-text'>
+                |
+              </li>
+              <li>
+                <p className="text-white nav-text"> <img src='' style={{ width: '1.3vw' }} alt="" /> Lunes a Viernes de 7:00am a 4:00pm</p>
+              </li>
+              <li className='mt-3 ml-4 mr-4 text-white nav-text'>
                 |
               </li>
               <li >
@@ -74,9 +80,9 @@ const Nav = () => {
                 >Contactanos</Link>
               </li>
               <li className="nav-item">
-                <Link to="https://github.com/Olstertecn11/Inmunolab/raw/master/Cata%CC%81logo%20de%20Referencia.pdf" target="_blank" download
+                <Link to="https://inmunolab.dxclinicos.com/login"
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >Catálogo de referencias</Link>
+                >Mis Resultados</Link>
               </li>
             </ul>
           </div>

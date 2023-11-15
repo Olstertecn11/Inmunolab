@@ -136,19 +136,23 @@
 
 .carousel-caption{
   position: absolute;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(18px);
   bottom: 30% !important;
+  width: 100%;
+  left: 0%;
 }
 
 
 .carousel-caption h5{
   font-weight: bold;
-  color: #002B5C;
+  color: white;
+  /* color: #002B5C; */
   font-size: 4vw
 }
 
 .carousel-caption p{
-  color: #002B5C;
+  /* color: #002B5C; */
+  color: white;
   font-size: 2.0vw;
   font-weight: 400;
 }

@@ -4,7 +4,7 @@
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 25vw !important;
+  height: 28vw !important;
   background: #002B5C;
   color: #08ABD8;
   text-align: center;
@@ -40,7 +40,7 @@
 
 .items-0{
   margin-left: 4vw;
-  margin-top: 2.9vw;
+  margin-top: 1.9vw;
   width: 30vw;
   border-top: 1px solid #08ABD8;
   padding-top: 2vw;
@@ -60,10 +60,19 @@ li{
 .footer-subtext{
   font-size: 120%;
   color: #CBF3FF;
+  margin-top: 1vw;
+  display: block;
+}
+
+.footer-subtext:hover{
+  color: white;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
+  text-decoration-skip: 60%;
 }
 
 .row-margin{
-  top: 20%;
+  top: 18%;
   height: 2vw !important;
   background: #002B5C;
   opacity: 0.9;

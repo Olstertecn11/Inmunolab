@@ -15,16 +15,10 @@ const About = () => {
         <h2 className='title-about animate__animated animate__slideInDown'>Acerca de Nosotros</h2>
         <span className='line'></span>
         <p className='p-about animate__animated animate__slideInLeft'>
-          Somos un laboratorio de análisis clínico Nivel IV, especializado en el área de inmunología, puntualmente damos el soporte
-          necesario en el diagnóstico de enfermedades inmunes y autoinmunes, contando también con todo el menú de pruebas
-          bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.
+          Por mas de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con el equipo de última generación.
           <br />
           <br />
-          Somos una empresa dedicada y comprometida con la salud del guatemalteco, por lo que nos dedicamos a la proyección social
-          dando soporte en pruebas de laboratorio sin costo a menores de edad y adultos mayores de instituciones de servicio social, por
-          más de 32 años.
-          Por más de 44 años hemos dado un servicio seguro, confiable y de calidad, siendo históricamente un laboratorio de alta
-          referencia.
+          sí mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
           <br /><br />
           Emitimos resultados oportunos y confiables con respaldo de garantía de calidad externa de la AQBG (Asociación de Químicos
           Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
@@ -35,9 +29,13 @@ const About = () => {
       <div className="row rs1" style={{ background: '#F5F9FD' }}>
         <div className="col-md-5 mx-auto column">
           <h2>Visión</h2>
-          <p className='mt-3' style={{ textAlign: 'justify' }}>Ser un laboratorio clínico de referencia, especializado y de alto rendimiento, con un equipo profesional para brindar resultados confiables y eficientes, garantizando el diagnóstico y veracidad de los resultados.</p>
+          <p className='mt-3' style={{ textAlign: 'justify' }}>
+            Ser un laboratorio clínico de referencia, especializado y de alto rendimiento, con un equipo profesional que brinda resultados confidenciales, confiables y eficientes, garantizando el diagnóstico y veracidad de los resultados.
+          </p>
           <b>Enfoque</b>
-          <p className='mt-2' style={{ textAlign: 'justify' }}>Con un enfoque inquebrantable en la calidad y la excelencia, nos comprometemos a mantener la confiabilidad y precisión de cada uno de nuestros resultados. A través de una combinación de conocimientos especializados y tecnología de punta, aspiramos a proporcionar a nuestros clientes y socios médicos información integral y significativa que impulse avances significativos en el campo de la salud y la medicina.</p>
+          <p className='mt-2' style={{ textAlign: 'justify' }}>
+            Con un enfoque inquebrantable en la calidad y la excelencia, nos comprometemos a mantener la confiabilidad y precisión de cada uno de los resultados. A través de una combinación de conocimientos especializados y tecnología de punta.
+          </p>
         </div>
         <div className="col-md-5 column">
           <img src={img1} className="img-mision" />
@@ -50,9 +48,13 @@ const About = () => {
         </div>
         <div className="col-md-6 mx-auto column">
           <h2>Misión</h2>
-          <p className='mt-3' style={{ textAlign: 'justify' }}>Brindar apoyo diagnóstico con equipos de alta tecnología y especializado, al equipo médico, con profesionales de laboratorio clínico comprometidos al servicio de la salud.</p>
+          <p className='mt-3' style={{ textAlign: 'justify' }}>
+            Brindar resultados certeros, precisos y oportunos, que ayuden al médico a la emisión de un diagnóstico confiable.
+          </p>
           <b>Compromiso</b>
-          <p className='mt-2' style={{ textAlign: 'justify' }}>Al priorizar la precisión, la puntualidad y la ética en cada aspecto de nuestro trabajo, nos esforzamos por ser un pilar de confianza en el viaje de salud de cada paciente. Nos comprometemos a garantizar que tanto nuestros pacientes como sus proveedores de atención médica cuenten con la información y el apoyo necesarios para tomar decisiones informadas y efectivas sobre su salud y bienestar</p>
+          <p className='mt-2' style={{ textAlign: 'justify' }}>
+            Al priorizar la precisión, la puntualidad y la ética en cada aspecto de nuestro trabajo, nos esforzamos por ser un pilar de confianza en el viaje de salud de cada paciente. Nos comprometemos a garantizar que tanto los pacientes, así como sus proveedores de atención médica cuenten con la información necesaria para tomar decisiones sobre su salud y bienestar.
+          </p>
         </div>
         <span className='line-sep'></span>
       </div>
@@ -60,7 +62,7 @@ const About = () => {
         <div className="col-md-5 mx-auto column">
           <h2>Objetivos</h2>
           <p className='mt-3' style={{ textAlign: 'justify' }}>
-            Ofrecer servicios de exámenes de laboratorio de calidad y excelencia al público en general, creando fidelidad y confianza a través de una atención al cliente excepcional, una comunicación clara y resultados precisos.
+            Ofrecer un servicio de calidad desde la toma de muestra hasta la entrega de los resultados. Creando fidelidad y confianza a través de una atención al cliente, excepcional, una comunicación clara y resultados precisos.
           </p>
           <b>Innovación</b>
           <p className='mt-2' style={{ textAlign: 'justify' }}>
