@@ -17,15 +17,15 @@ const Contact = () => {
             </div>
             <br />
             <p className=''>
-              <i className='fas fa-location-dot mr-4 icon'></i>4a Av. 13-67 zona 9, Ciudad de Guatemala
+              <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>4a Av. 13-67 zona 9, Ciudad de Guatemala
             </p>
             <p className=''>
-              <i className='fas fa-envelope mr-4 icon'></i>
+              <i className='fas fa-envelope mr-4 ' style={{ color: '#08ABD8' }}></i>
               info@inmunolab.gt
             </p>
             <p className=''>
 
-              <i className='fas fa-phone mr-4 icon'></i>
+              <i className='fas fa-phone mr-4' style={{ color: '#08ABD8' }}></i>
               <Link to="">
                 +502 23626887
               </Link>

@@ -1,6 +1,7 @@
 
 import './styles/Services.css'
 import img from './../icons/Inmunolab/examinando.jpg';
+import pdf from './../Referencia.pdf';
 import { useState, useEffect } from 'react';
 
 
@@ -72,6 +73,9 @@ const Services = () => {
           <span className='line-p'></span>
         </div>
         <img src={img} className="img-back-s" />
+      </div>
+      <div className="row">
+        <iframe src={pdf} width={'100%'} height={'100%'}  ></iframe>
       </div>
     </>
   );

@@ -1,11 +1,13 @@
 import './styles/Footer.css';
-import icon from './../icons/Inmunolab/Isotipo blanco.png';
+// import icon from './../icons/Inmunolab/Isotipo blanco.png';
+import icon from './../icons/Inmunolab/logo_horizontal.png';
 import phone_icon from './../icons/Inmunolab/phone.png'
 import location from './../icons/Inmunolab/location2.png'
 import face from './../icons/Inmunolab/face.png'
 import insta from './../icons/Inmunolab/insta.png'
 import linke from './../icons/Inmunolab/linke.png'
 import schedule from './../icons/Inmunolab/schedule.png';
+import { FaFacebook, FaInstagram, FaLinkedin, FaCalendarAlt, FaMapMarker, FaPhone } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
@@ -23,13 +25,21 @@ const Footer = () => {
     <footer className="row footer" style={{ paddingTop: '5%' }}>
       <div className="col-md-5 mt-3">
         <h2 className='footer-title'>
-          Inmunolab
           <img src={icon} className="icon" />
         </h2>
         <div className="items items-0">
-          <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext"> <img src={location} style={{ width: '1.4vw' }} /> 4a Av. 13-67 zona 9, Ciudad de Guatemala</Link>
-          <Link className="footer-subtext"> <img src={schedule} style={{ width: '1.3vw' }} alt="" /> Lunes a Viernes de 7:00am a 4:00pm</Link>
-          <Link to='https://api.whatsapp.com/send?phone=50240372071' className="footer-subtext"> <img src={phone_icon} style={{ width: '1.4vw' }} /> +502 23626887</Link>
+          <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext">
+            <FaMapMarker className='mr-2' />
+            4a Av. 13-67 zona 9, Ciudad de Guatemala
+          </Link>
+          <Link className="footer-subtext">
+            <FaCalendarAlt className='mr-2' />
+            Lunes a Viernes de 7:00am a 4:00pm
+          </Link>
+          <Link to='https://api.whatsapp.com/send?phone=50240372071' className="footer-subtext">
+            <FaPhone className='mr-2' />
+            23626887
+          </Link>
         </div>
       </div>
       <div className="col-md-3 links">
@@ -41,12 +51,18 @@ const Footer = () => {
         </div>
       </div>
       <div className="col-md-3 network">
-        <h2 className='text-center footer-text mt-4'>Síguenos</h2>
+        <h2 className='footer-text mt-4'>Síguenos</h2>
         <div className="items">
-          <li className='text-center li' onClick={() => handleClick("https://www.facebook.com/inmunolabgt")}> <img src={face} style={{ width: '1.8vw' }} /> Facebook</li>
-          <li className='text-center li' onClick={() => handleClick("https://instagram.com/inmunolabguatemala?igshid=MzRlODBiNWFlZA==")}><img src={insta} style={{ width: '1.8vw' }} /> Instagram</li>
+          <li className='text-center li' onClick={() => handleClick("https://www.facebook.com/inmunolabgt")}>
+            <FaFacebook className='mr-2' />
+            Facebook
+          </li>
+          <li className='text-center li' onClick={() => handleClick("https://instagram.com/inmunolabguatemala?igshid=MzRlODBiNWFlZA==")}>
+            <FaInstagram className='mr-2' />
+            Instagram
+          </li>
           <li className='text-center li' onClick={() => handleClick("https://www.linkedin.com/company/inmunolab/")}>
-            <img src={linke} style={{ width: '1.4vw', marginRight: 10 }} className="last" />
+            <FaLinkedin className='mr-2' />
             Linkedin
           </li>
         </div>

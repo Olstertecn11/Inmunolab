@@ -77,11 +77,11 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to={'/Contact'}
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >Contactanos</Link>
+                >Contacto</Link>
               </li>
               <li className="nav-item">
                 <Link to="https://inmunolab.dxclinicos.com/login"
-                  className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
+                  className={active === 'Results' ? 'nav-link active' : 'nav-link'}
                 >Mis Resultados</Link>
               </li>
             </ul>
