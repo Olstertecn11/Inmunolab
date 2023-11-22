@@ -1,0 +1,34 @@
+
+
+
+
+
+.questions-row{
+  height: 16vw !important;
+  background: blue;
+  margin-bottom: 2vw !important;
+  filter: brightness(0.97);
+}
+
+.img-q{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-p{
+  margin-top: 1vw;
+  display: block;
+  background-color: none;
+  border: 1px solid #2788E7;
+  color: #2788E7;
+  font-weight: 400;
+}
+
+.btn-p:hover{
+  background: #2788E7;
+  color: white;
+}

@@ -82,7 +82,12 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to="https://inmunolab.dxclinicos.com/login"
                   className={active === 'Results' ? 'nav-link active' : 'nav-link'}
-                >Mis Resultados</Link>
+                >Resultados</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/Preguntas"
+                  className={active === 'Preguntas' ? 'nav-link active' : 'nav-link'}
+                >Preguntas Frecuentes</Link>
               </li>
             </ul>
           </div>
