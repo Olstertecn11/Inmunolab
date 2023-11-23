@@ -12,12 +12,6 @@ const Questions = () => {
         <div className="col-md-5 mx-auto">
           <h4 className='card-title text-primary'>Encuentra Respuesta a lo que te interesa</h4>
           <hr />
-          <Link className='btn btn-p' target='_blank' to='https://github.com/Olstertecn11/Inmunolab/blob/master/Cata%CC%81logo%20de%20Referencia.pdf' download >
-            Descarga Nuevo Referencias
-          </Link>
-          <button className='btn btn-p' onClick={() => window.open('./src/components/Instructivo.pdf', '_blank')}>
-            Descarga Manual de Instructivo
-          </button>
         </div>
         <div className="col-md-6 mx-auto">
           <div className="accordion" id="accordionExample">
