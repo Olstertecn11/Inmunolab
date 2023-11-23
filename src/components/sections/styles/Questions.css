@@ -5,7 +5,7 @@
 
 .questions-row{
   height: 16vw !important;
-  background: blue;
+  background: transparent;
   margin-bottom: 2vw !important;
   filter: brightness(0.97);
 }
@@ -20,6 +20,7 @@
 }
 
 .btn-p{
+  width: 50%;
   margin-top: 1vw;
   display: block;
   background-color: none;
