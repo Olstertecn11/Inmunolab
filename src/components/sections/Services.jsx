@@ -74,9 +74,6 @@ const Services = () => {
         </div>
         <img src={img} className="img-back-s" />
       </div>
-      <div className="row">
-        <iframe src={pdf} width={'100%'} height={'100%'}  ></iframe>
-      </div>
     </>
   );
 }
