@@ -13,10 +13,10 @@ const Questions = () => {
           <h4 className='card-title text-primary'>Encuentra Respuesta a lo que te interesa</h4>
           <hr />
           <Link className='btn btn-p' target='_blank' to='https://github.com/Olstertecn11/Inmunolab/blob/master/Cata%CC%81logo%20de%20Referencia.pdf' download >
-            Descarga Nuevo Instructivo
+            Descarga Nuevo Referencias
           </Link>
-          <button className='btn btn-p' onClick={() => window.open('./src/components/Referencia.pdf', '_blank')}>
-            Descarga Manual de Referencias
+          <button className='btn btn-p' onClick={() => window.open('./src/components/Instructivo.pdf', '_blank')}>
+            Descarga Manual de Instructivo
           </button>
         </div>
         <div className="col-md-6 mx-auto">
@@ -31,7 +31,7 @@ const Questions = () => {
               </div>
 
               <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div className="card-body">
+                <div className="card-body text-justify">
                   Se recomienda que sea la primera orina de la mañana, si en dado caso no es posible, dejar transcurrir dos horas sin haber tomado líquido y sin ir al sanitario, posteriormente tomar la muestra en un recipiente esterilizado y limpio. Tomar en cuenta que el tiempo máximo desde la recolección de la muestra para ser analizada en el laboratorio son 2Hrs.
                 </div>
               </div>
@@ -45,7 +45,7 @@ const Questions = () => {
                 </h2>
               </div>
               <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div className="card-body">
+                <div className="card-body text-justify">
                   Recolectar la muestra de heces en recipiente esterilizado y limpio, con un máximo de 2Hrs.
                 </div>
               </div>
@@ -54,13 +54,14 @@ const Questions = () => {
               <div className="card-header" id="headingThree">
                 <h2 className="mb-0">
                   <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Examen de orina de 24 horas
+                    Coprocultivo
                   </button>
                 </h2>
               </div>
               <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div className="card-body">
-                  Se necesita una muestra de orina de 24 horas, recolectarla en un recipiente de plástico estéril para orina de 24 horas (solicitar el recipiente al laboratorio). El día elegido, se desechará la primera orina de la mañana. A partir de ese momento, se recogerá la orina emitida a lo largo de todo el día, incluyendo la primera orina de la mañana siguiente.
+                <div className="card-body text-justify">
+                  Recolectar la muestra de heces en recipiente esterilizado y limpio, con un máximo de
+                  2Hrs. Tener cuidado que la muestra de heces no se mezcle con la orina.
                 </div>
               </div>
             </div>
