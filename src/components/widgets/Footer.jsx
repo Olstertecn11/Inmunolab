@@ -8,13 +8,15 @@ import insta from './../icons/Inmunolab/insta.png'
 import linke from './../icons/Inmunolab/linke.png'
 import schedule from './../icons/Inmunolab/schedule.png';
 import { FaFacebook, FaInstagram, FaLinkedin, FaCalendarAlt, FaMapMarker, FaPhone } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
 import React from 'react';
 
 const Footer = () => {
+
+  const history = useNavigate();
 
 
   const handleClick = (link) => {
@@ -45,9 +47,9 @@ const Footer = () => {
       <div className="col-md-3 links">
         <h2 className='mt-4 footer-text'>Enlaces</h2>
         <div className="items">
-          <li className='li'>Nosotros</li>
-          <li className='li'>Servicios</li>
-          <li className='li'>Contactanos</li>
+          <li className='li' onClick={() => history('/About')}>Nosotros</li>
+          <li className='li' onClick={() => history('/Services')}>Servicios</li>
+          <li className='li' onClick={() => history('/Contact')}>Contactanos</li>
         </div>
       </div>
       <div className="col-md-3 network">
