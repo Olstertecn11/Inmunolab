@@ -57,7 +57,7 @@ const Home = () => {
         </div>
         <div className="col-md-3 mx-auto">
           <div className="card-body">
-            <Link to='/Services'>
+            <Link to="https://inmunolab.dxclinicos.com/login">
               <img className='img-1' src={health_icon} alt="" />
             </Link>
             <h2 className='text-center text-primary t-1'>Consultas</h2>
