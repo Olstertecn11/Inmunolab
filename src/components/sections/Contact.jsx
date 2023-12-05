@@ -27,7 +27,7 @@ const Contact = () => {
 
               <i className='fas fa-phone mr-4' style={{ color: '#08ABD8' }}></i>
               <Link to="">
-                +502 23626887
+                +502 22113324/39948444
               </Link>
             </p>
             <br />
@@ -70,14 +70,16 @@ const Contact = () => {
         <img src={background} className="img-background2 mx-auto" style={{ top: -49 }} />
         <div className="col-md-6 _col0 mx-auto">
           <h2 className='text-center'>Nuestra Ubicación</h2>
+
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.08507043252!2d-90.5486674!3d14.597864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85899f2e6e49a6c5%3A0xd7242c7d68b1d3e2!2sINMUNOLAB!5e0!3m2!1ses-419!2sgt!4v1698312931071!5m2!1ses-419!2sgt"
-            style={{ border: "0" }}
-            allowFullScreen
+            title="Google Map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.08507043252!2d-90.5486674!3d14.597864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85899f2e6e49a6c5%3A0xd7242c7d68b1d3e2!2sINMUNOLAB!5e0!3m2!1ses-419!2sgt!4v1701806211410!5m2!1ses-419!2sgt"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Mapa de Ubicación"
-            className='map'
           ></iframe>
         </div>
         <div className="col-md-4 mx-auto _col1">

@@ -32,7 +32,7 @@ const Nav = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav2">
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
-                <p className='mt-3 text-white nav-text'>4a Av. 13-67 zona 9, Ciudad de Guatemala</p>
+                <p className='mt-3 text-white nav-text'>7Av. 23 Calle, Zona 12</p>
               </li>
               <li className='mt-3 mr-4 text-white nav-text'>
                 |
