@@ -1,5 +1,5 @@
 
-import icon from './../icons/Inmunolab/logo_horizontal.png';
+import icon from './../icons/Inmunolab/Logos lab/Logo Final - InmunoLab-01.jpg';
 import './styles/Nav.css';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -50,7 +50,7 @@ const Nav = () => {
           </div>
         </div >
       </nav >
-      <nav className="navbar navbar-expand-lg bg-light navbar-light navbar-1">
+      <nav className="navbar navbar-expand-lg  navbar-1" style={{ background: 'white' }}>
         <div className="container-fluid">
           <a className="navbar-brand"><img src={icon} width={190} /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
