@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="items items-0">
           <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext">
             <FaMapMarker className='mr-2' />
-            4a Av. 13-67 zona 9, Ciudad de Guatemala
+            4A Avenida 13-67 Cdad. de Guatemala
           </Link>
           <Link className="footer-subtext">
             <FaCalendarAlt className='mr-2' />

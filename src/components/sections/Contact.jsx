@@ -73,7 +73,7 @@ const Contact = () => {
 
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.08507043252!2d-90.5486674!3d14.597864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85899f2e6e49a6c5%3A0xd7242c7d68b1d3e2!2sINMUNOLAB!5e0!3m2!1ses-419!2sgt!4v1701806211410!5m2!1ses-419!2sgt"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30887.931918506623!2d-90.55964558916013!3d14.59956060000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a31729598997%3A0x80cb70d5cee00e55!2sInmunolab!5e0!3m2!1ses-419!2sni!4v1702432698950!5m2!1ses-419!2sni"
             width="600"
             height="450"
             style={{ border: 0 }}
