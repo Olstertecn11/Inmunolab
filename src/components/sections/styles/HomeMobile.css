@@ -1,4 +1,11 @@
 @media screen and (max-width: 991px) and (orientation:portrait){
+  .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .navbar-1 .container-fluid{
+    background: white;
+  }
 
   .navbar-0{
     height: 8vw !important;
@@ -37,8 +44,8 @@
   }
 
   .btn-0{
-    top: 75%;
-    width: 32vw;
+    top: 81%;
+    width: 36vw;
     height: 10vw;
     font-size: 4vw;
     padding-top: 2vw;

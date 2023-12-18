@@ -50,7 +50,7 @@ const Nav = () => {
           </div>
         </div >
       </nav >
-      <nav className="navbar navbar-expand-lg  navbar-1" style={{ background: 'white' }}>
+      <nav className="navbar navbar-expand-lg navbar-light  navbar-1" style={{ background: 'white' }}>
         <div className="container-fluid">
           <a className="navbar-brand"><img src={icon} width={190} /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
