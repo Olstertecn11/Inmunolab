@@ -79,10 +79,15 @@ const Nav = () => {
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >Contacto</Link>
               </li>
-              <li className="nav-item">
-                <Link to="https://inmunolab.dxclinicos.com/login"
-                  className={active === 'Results' ? 'nav-link active' : 'nav-link'}
-                >Resultados</Link>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Resultados
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <Link to='https://inmunolab.dxclinicos.com/login' class="dropdown-item" href="#">Paciente</Link>
+                  <Link to='https://inmunolab.dxclinicos.com/login' class="dropdown-item" href="#">Medico</Link>
+                  <Link to='https://inmunolab.dxclinicos.com/login' class="dropdown-item" href="#">Administrador</Link>
+                </div>
               </li>
               <li className="nav-item">
                 <Link to="/Preguntas"
