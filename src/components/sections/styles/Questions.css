@@ -2,6 +2,9 @@
 
 
 
+.questions-content-row{
+  height: 20vw !important;
+}
 
 .questions-row{
   height: 16vw !important;
