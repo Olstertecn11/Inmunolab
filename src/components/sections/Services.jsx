@@ -1,6 +1,6 @@
 
 import './styles/Services.css'
-import img from './../icons/Inmunolab/examinando.jpg';
+import img from './../icons/Inmunolab/observador.jpeg';
 import pdf from './../Referencia.pdf';
 import { useState, useEffect } from 'react';
 

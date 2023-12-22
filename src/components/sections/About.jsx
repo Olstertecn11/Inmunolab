@@ -3,6 +3,7 @@ import './styles/About.css';
 import img1 from './../icons/Inmunolab/tomando_muestra.jpg';
 import img2 from './../icons/Inmunolab/microscopio.jpg';
 import img3 from './../icons/Inmunolab/objetivos.jpg';
+import img_bg from './../icons/Inmunolab/worker.jpeg';
 import { useEffect } from 'react';
 
 const About = () => {
@@ -24,7 +25,7 @@ const About = () => {
           Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
           certeza de los laboratorios clínicos que se realizan.
         </p>
-        <img className="bg-img" src="https://www.comunidad.madrid/sites/default/files/img/personalidades/la_comunidad_ha_tomado_mas_de_18.500_muestras_para_conocer_el_estado_inmunologico_frente_al_covid-19_en_los_centros_socio-sanitarios_2.jpg" />
+        <img className="bg-img" src={img_bg} />
       </div>
       <div className="row rs1" style={{ background: '#F5F9FD' }}>
         <div className="col-md-5 mx-auto column">
