@@ -6,6 +6,7 @@ import health_icon from './../icons/Inmunolab/consul.png';
 import location_icon from './../icons/Inmunolab/location.png';
 import background from './../icons/Inmunolab/wave-haikei2.png';
 import nosotros_img from './../icons/Inmunolab/nosotros.png'
+import initial_image from './../icons/Inmunolab/test_show.jpeg';
 import test_tube from './../icons/Inmunolab/test_tube.png';
 import TypeWritter from './../helpers/TypeWritter';
 import { Link } from 'react-router-dom';
@@ -19,7 +20,7 @@ const Home = () => {
   return (
     <>
       <div className="row ">
-        <img className='image' src="https://laboratoriosedulab.com/wp-content/uploads/2020/06/Edulab_servicios_Inmunologia.jpg" alt="" />
+        <img className='image' src={initial_image} alt="" />
         <h1 className='title animate__animated animate__fadeInLeft'>INMUNOLAB</h1>
         <p className='p-0 animate__animated animate__fadeInDown'>
           Somos un laboratorio de análisis clínico nivel IV, pionero en referencias hospitalarias y de laboratorios,  especializado en el área de inmunología.
