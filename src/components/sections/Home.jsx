@@ -7,8 +7,13 @@ import location_icon from './../icons/Inmunolab/location.png';
 import background from './../icons/Inmunolab/wave-haikei2.png';
 import nosotros_img from './../icons/Inmunolab/nosotros.png'
 import initial_image from './../icons/Inmunolab/test_show.jpeg';
-import test_tube from './../icons/Inmunolab/test_tube.png';
-import TypeWritter from './../helpers/TypeWritter';
+
+import slider_1 from './../icons/Inmunolab/footer_1.jpeg';
+import slider_2 from './../icons/Inmunolab/footer_2.jpeg';
+import worker_img from './../icons/Inmunolab/worker.jpeg';
+
+
+
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 
@@ -79,21 +84,21 @@ const Home = () => {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img style={{ height: '100%', width: '100%' }} className="d-block " src="https://www.birmingham.ac.uk/CachedImage.axd?ImageName=laboratory-3827745-1920.jpg&ImageWidth=1920&ImageHeight=1280&ImageVersionID=1969570&ImageModified=20200902121951" alt="First slide" />
+              <img style={{ height: '100%', width: '100%' }} className="d-block " src={worker_img} alt="First slide" />
               <div className="carousel-caption d-none d-md-block first-block">
                 <h5>Personal Capacitado y Equipo de Vanguardia</h5>
                 <p>Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img style={{ height: '100%', width: '100%' }} className="d-block " src="https://www.fcv.org/co/images/la-ruta-de-la-vida/unidad-de-laboratorios/laboratorio-clinico-3.webp" alt="First slide" />
+              <img style={{ height: '100%', width: '100%' }} className="d-block " src={slider_1} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Tecnólogia</h5>
                 <p>Innovamos constantemente en equipos de alta tecnología y a la vanguardia de la salud.</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img style={{ height: '100%', width: '100%' }} className="d-block " src="https://laboratoriosedulab.com/wp-content/uploads/2020/06/Edulab_servicios_Inmunologia_analisis.jpg" alt="First slide" />
+              <img style={{ height: '100%', width: '100%' }} className="d-block " src={slider_2} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Facilidades de Pago</h5>
                 <p>Precios accesibles y competitivos con el mercado disponibles para ser cancelados por credito, debito, transferencias, etc... </p>
