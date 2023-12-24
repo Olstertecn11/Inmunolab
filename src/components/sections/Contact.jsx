@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="row row-contact">
         <div className="col-md-5  col0">
           <div className="card-body card-0">
-            <h2 className="animate__animated animate__fadeInLeft">¡Nos encataria saber de ti!</h2>
+            <h2 className="animate__animated animate__fadeInLeft">¡Nos encataría saber de ti!</h2>
             <div className="form-group">
               <p className="animate__animated animate__fadeInLeft">
                 Si tienes alguna pregunta, inquietud o simplemente deseas obtener más información sobre los servicios de laboratorio de vanguardia en inmunología y demás, no dudes en ponerte en contacto con nosotros.

@@ -77,7 +77,7 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to={'/Contact'}
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >Contacto</Link>
+                >Contáctanos</Link>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -92,7 +92,7 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to="/Preguntas"
                   className={active === 'Preguntas' ? 'nav-link active' : 'nav-link'}
-                >Preguntas Frecuentes</Link>
+                >Preguntas </Link>
               </li>
             </ul>
           </div>
