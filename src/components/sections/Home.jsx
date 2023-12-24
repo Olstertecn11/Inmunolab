@@ -41,9 +41,9 @@ const Home = () => {
       <h2 className='card-title text-center info-title'>Información</h2>
       <hr />
       <div className="row" >
-        <div id="carouselExampleControls" className="carousel slide " data-ride="carousel" style={{ marginLeft: '30vw' }}>
+        <div id="carouselExampleControls" className="carousel slide info-slide" data-ride="carousel" style={{ marginLeft: '30vw' }}>
           <div className="carousel-inner" >
-            <div className="carousel-item active" style={{ background: 'none', width: '40vw' }}>
+            <div className="carousel-item active" style={{ background: 'none' }}>
               <img className="d-block " src={info1} alt="First slide" style={{ width: '40vw' }} />
             </div>
             <div className="carousel-item" style={{ background: 'none', }}>
