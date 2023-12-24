@@ -28,6 +28,16 @@
 }
 
 
+.info-title{
+	font-size: 3vw;
+	font-weight: bold;
+	left: 10%;
+	color: #002C44;
+	font-family: Roboto !important;
+  text-transform: uppercase;
+}
+
+
 .p-0{
 	position: absolute;
 	top: 45%;
