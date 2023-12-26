@@ -32,7 +32,9 @@ const Nav = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav2">
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
-                <p className='mt-3 text-white nav-text'>4A Avenida 13-67, Zona 9 Guatemala</p>
+                <p className='mt-3 text-white nav-text'>
+                  4a av. 13-67 Zona 9, Guatemala
+                </p>
               </li>
               <li className='mt-3 mr-4 text-white nav-text'>
                 |
@@ -45,6 +47,7 @@ const Nav = () => {
               </li>
               <li >
                 <Link className='mt-3 text-white nav-text' to="https://api.whatsapp.com/send?phone=50240372071"> <i className='fab fa-whatsapp'> </i> WhatsApp</Link>
+
               </li>
             </ul>
           </div>

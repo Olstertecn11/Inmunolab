@@ -27,7 +27,7 @@ const Contact = () => {
 
               <i className='fas fa-phone mr-4' style={{ color: '#08ABD8' }}></i>
               <Link to="">
-                +502 22113324/39948444
+                +502 40372071/39948444
               </Link>
             </p>
             <br />

@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="items items-0">
           <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext">
             <FaMapMarker className='mr-2' />
-            4A Avenida 13-67 Zona 9, Guatemala
+            4a av. 13-67 Zona 9, Guatemala
           </Link>
           <Link className="footer-subtext">
             <FaCalendarAlt className='mr-2' />
@@ -40,7 +40,7 @@ const Footer = () => {
           </Link>
           <Link to='https://api.whatsapp.com/send?phone=50240372071' className="footer-subtext">
             <FaPhone className='mr-2' />
-            23626887
+            39948444
           </Link>
         </div>
       </div>
