@@ -4,6 +4,18 @@
     width: 90vw !important;
   }
 
+
+  .carousel-item .active{
+    background: none !important;
+  }
+
+
+  .carousel-item .active img{
+    width: 100% !important;
+  }
+
+
+
   .info-slide{
     margin-top: 10vw;
     margin-left: 6vw !important;
