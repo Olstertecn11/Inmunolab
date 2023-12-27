@@ -29,6 +29,10 @@ const About = () => {
           <br />
           Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
           <br /><br />
+          PERSONAL CAPACITADO Y EQUIPO DE VANGUARDIA
+          <br />
+          Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.
+          Así como innovamos constantemente en equipos de alta tecnología y a la vanguardia de salud.
         </p>
         <img className="bg-img" src={img_bg} />
       </div>
@@ -42,6 +46,10 @@ const About = () => {
             Emitimos resultados oportunos y confiables con respaldo de garantía de calidad externa de la AQBG (Asociación de Químicos
             Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
             certeza de los laboratorios clínicos que se realizan.
+            <br />
+            Somos un laboratorio de proyeccion social. Que  da soporte a distintas instituciones del sector público
+            y privado, para ayudar aquellos guatemaltecos de escasos recursos que no pueden costear la totalidad
+            de las pruebas de la orden de laboratorio emitida por el Médico tratante.
           </p>
         </div>
 
