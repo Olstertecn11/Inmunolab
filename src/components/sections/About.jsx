@@ -47,7 +47,7 @@ const About = () => {
             Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
             certeza de los laboratorios clínicos que se realizan.
             <br />
-            Somos un laboratorio de proyeccion social. Que  da soporte a distintas instituciones del sector público
+            Somos un laboratorio de proyección social. Que  da soporte a distintas instituciones del sector público
             y privado, para ayudar aquellos guatemaltecos de escasos recursos que no pueden costear la totalidad
             de las pruebas de la orden de laboratorio emitida por el Médico tratante.
           </p>
