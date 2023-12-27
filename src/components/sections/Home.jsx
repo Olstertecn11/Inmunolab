@@ -19,11 +19,14 @@ import info2 from './../icons/Inmunolab/info2.jpeg';
 
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
 
   return (
     <>
@@ -34,7 +37,8 @@ const Home = () => {
           Somos un laboratorio de análisis clínico nivel IV, pionero en referencias hospitalarias y de laboratorios,  especializado en el área de inmunología.
           Damos el soporte necesario en el diagnostico de enfermedades inmunes y autoinmunes. Para lo cual contamos con una amplia gama de pruebas bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.
         </p>
-        <Link className='btn btn-0' to="/About">Conocer Más</Link>
+
+        <HashLink className='btn btn-0' to="/About#sec-con">Conoce Más</HashLink>
       </div>
 
       <hr />
@@ -112,23 +116,23 @@ const Home = () => {
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{ width: '100%', height: '100%' }}>
           <ol className="carousel-indicators">
           </ol>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img style={{ height: '100%', width: '100%' }} className="d-block " src={worker_img} alt="First slide" />
+          <div className="carousel-inner slidercar">
+            <div className="carousel-item active" style={{ background: 'none' }}>
+              <img style={{ height: '100%' }} className="d-block " src={worker_img} alt="First slide" />
               <div className="carousel-caption d-none d-md-block first-block">
                 <h5>Personal Capacitado y Equipo de Vanguardia</h5>
                 <p>Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.</p>
               </div>
             </div>
-            <div className="carousel-item">
-              <img style={{ height: '100%', width: '100%' }} className="d-block " src={slider_1} alt="First slide" />
+            <div className="carousel-item" style={{ background: 'none' }}>
+              <img style={{ height: '100%' }} className="d-block " src={slider_1} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Tecnólogia</h5>
                 <p>Innovamos constantemente en equipos de alta tecnología y a la vanguardia de la salud.</p>
               </div>
             </div>
-            <div className="carousel-item">
-              <img style={{ height: '100%', width: '100%' }} className="d-block " src={slider_2} alt="First slide" />
+            <div className="carousel-item" style={{ background: 'none' }}>
+              <img style={{ height: '100%' }} className="d-block " src={slider_2} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
                 <h5>Facilidades de Pago</h5>
                 <p>Precios accesibles y competitivos con el mercado disponibles para ser cancelados por credito, debito, transferencias, etc... </p>

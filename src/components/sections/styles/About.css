@@ -40,6 +40,12 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
 }
 
+.title-conoce{
+  font-weight: bold;
+  color: #002B5C;
+  font-size: 2vw;
+}
+
 
 .column{
   margin-top: 5vw;
@@ -102,7 +108,7 @@ filter: drop-shadow(30px 10px 8px #4444dd);
   }
 
   .about-row{
-    height: 330vw !important;
+    height: 300vw !important;
   }
 
   .column h2{

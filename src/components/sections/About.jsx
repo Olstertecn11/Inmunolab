@@ -10,6 +10,14 @@ const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    const rutaActual = window.location.pathname;
+    console.log('Ruta actual:', rutaActual);
+  }, []); // El
+
+
+
   return (
     <>
       <div className="row about-row">
@@ -19,14 +27,29 @@ const About = () => {
           Por mas de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con el equipo de última generación.
           <br />
           <br />
-          sí mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
+          Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
           <br /><br />
-          Emitimos resultados oportunos y confiables con respaldo de garantía de calidad externa de la AQBG (Asociación de Químicos
-          Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
-          certeza de los laboratorios clínicos que se realizan.
         </p>
         <img className="bg-img" src={img_bg} />
       </div>
+
+
+      <section id="sec-con" className="row" style={{ background: '#F5F9FD' }} >
+        <div className="col-md-6 mx-auto" style={{ marginTop: '12vw' }}>
+          <h2 className='text-center card-title title-conoce'>Conoce Más</h2>
+          <hr />
+          <p className='text-center' style={{ letterSpacing: 2 }}>
+            Emitimos resultados oportunos y confiables con respaldo de garantía de calidad externa de la AQBG (Asociación de Químicos
+            Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
+            certeza de los laboratorios clínicos que se realizan.
+          </p>
+        </div>
+
+        <span className='line-sep'></span>
+      </section>
+
+
+
       <div className="row rs1" style={{ background: '#F5F9FD' }}>
         <div className="col-md-5 mx-auto column">
           <h2>Visión</h2>

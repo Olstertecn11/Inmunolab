@@ -5,6 +5,11 @@
   }
 
 
+  .slidercar .carousel-item img{
+    width: 100% !important;
+  }
+
+
   .carousel-item .active{
     background: none !important;
   }
