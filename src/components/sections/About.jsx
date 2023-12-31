@@ -39,13 +39,14 @@ const About = () => {
 
 
       <section id="sec-con" className="row" style={{ background: '#F5F9FD' }} >
-        <div className="col-md-6 mx-auto" style={{ marginTop: '12vw' }}>
+        <div className="col-md-6 mx-auto" style={{ marginTop: '10vw' }}>
           <h2 className='text-center card-title title-conoce'>Conoce Más</h2>
           <hr />
-          <p className='text-center' style={{ letterSpacing: 2 }}>
+          <p className='text-center ' style={{ letterSpacing: 2, textAlign: 'justify' }}>
             Emitimos resultados oportunos y confiables con respaldo de garantía de calidad externa de la AQBG (Asociación de Químicos
             Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
             certeza de los laboratorios clínicos que se realizan.
+            <br />
             <br />
             Somos un laboratorio de proyeccion social. Que  da soporte a distintas instituciones del sector público
             y privado, para ayudar aquellos guatemaltecos de escasos recursos que no pueden costear la totalidad

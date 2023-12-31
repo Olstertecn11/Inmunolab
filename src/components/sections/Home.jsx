@@ -12,7 +12,7 @@ import slider_1 from './../icons/Inmunolab/footer_1.jpeg';
 import slider_2 from './../icons/Inmunolab/footer_2.jpeg';
 import worker_img from './../icons/Inmunolab/worker.jpeg';
 
-import info1 from './../icons/Inmunolab/info1.jpeg';
+import info1 from './../icons/Inmunolab/nuevoo.jpeg';
 import info2 from './../icons/Inmunolab/info2.jpeg';
 
 
