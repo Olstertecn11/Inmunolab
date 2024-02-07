@@ -7,7 +7,7 @@ import face from './../icons/Inmunolab/face.png'
 import insta from './../icons/Inmunolab/insta.png'
 import linke from './../icons/Inmunolab/linke.png'
 import schedule from './../icons/Inmunolab/schedule.png';
-import { FaFacebook, FaInstagram, FaLinkedin, FaCalendarAlt, FaMapMarker, FaPhone } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaCalendarAlt, FaMapMarker, FaPhone, FaWhatsapp, FaWaze } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 
 
@@ -30,6 +30,10 @@ const Footer = () => {
           <img src={icon} className="icon" />
         </h2>
         <div className="items items-0">
+          <Link to='https://www.waze.com/live-map/directions/laboratorio-inmunolab-4a-avenida-zona-9,-guatemala?to=place.w.176619666.1766065588.27693813&from=ll.14.65694996%2C-90.51139092&utm_medium=lm_share_directions&utm_campaign=default&utm_source=waze_website' className="footer-subtext">
+            <FaWaze className='mr-2' />
+            Ubicación Waze
+          </Link>
           <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext">
             <FaMapMarker className='mr-2' />
             4a av. 13-67 Zona 9, Guatemala
@@ -38,9 +42,13 @@ const Footer = () => {
             <FaCalendarAlt className='mr-2' />
             Lunes a Viernes de 7:00am a 4:00pm
           </Link>
-          <Link to='https://api.whatsapp.com/send?phone=50240372071' className="footer-subtext">
+          <Link to='https://api.whatsapp.com/send?phone=50239948444' className="footer-subtext">
             <FaPhone className='mr-2' />
             39948444
+          </Link>
+          <Link to='https://api.whatsapp.com/send?phone=50240372071' className="footer-subtext">
+            <FaWhatsapp className='mr-2' />
+            40372071
           </Link>
         </div>
       </div>

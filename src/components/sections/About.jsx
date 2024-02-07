@@ -40,9 +40,9 @@ const About = () => {
 
       <section id="sec-con" className="row" style={{ background: '#F5F9FD' }} >
         <div className="col-md-6 mx-auto" style={{ marginTop: '12vw' }}>
-          <h2 className='text-center card-title title-conoce'>Conoce Más</h2>
+          <h2 className='text-center card-title title-conoce mx-auto'>Conoce Más</h2>
           <hr />
-          <p className='text-center' style={{ letterSpacing: 2 }}>
+          <p className=' text-justify' style={{ letterSpacing: 2, textAlign: 'justify' }}>
             Emitimos resultados oportunos y confiables con respaldo de garantía de calidad externa de la AQBG (Asociación de Químicos
             Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación externa de calidad) donde se evalúa y corrobora la
             certeza de los laboratorios clínicos que se realizan.

@@ -2,6 +2,7 @@
 
 .carousel-item img{
   filter: brightness(50%) !important;
+  width: 100%;
 }
 
 .row{
@@ -116,7 +117,7 @@
   transform: scaleY(-1);
 }
 .test-tube{
-  margin-top: 4vw;
+  margin-top: 0vw;
   width: 30vw;
 }
 

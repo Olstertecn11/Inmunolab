@@ -1,9 +1,51 @@
 import './styles/Contact.css';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import background from './../icons/Inmunolab/wave-haikei2.png';
 import qr from './../icons/Inmunolab/qr.png';
+import emailjs from '@emailjs/browser';
+import SweetAlert2 from 'react-sweetalert2';
+import { FaWhatsapp } from 'react-icons/fa';
+
+
 
 const Contact = () => {
+
+
+  const emptyForm = { name: '', email: '', message: '' }
+  const [form, setForm] = useState(emptyForm);
+  const [swalProps, setSwalProps] = useState({});
+
+
+  const handleChange = (event) => {
+    const name = event.target.name;
+    setForm({ ...form, [name]: event.target.value });
+  }
+  const sendEmail = () => {
+    const emailTemplate = {
+      from_name: form.name,
+      from_email: form.email,
+      message: form.message
+    }
+    emailjs.send('service_kt3h13s', 'template_xl8dn5c', emailTemplate, 'a2DG14lDuzHz2Enzj')
+      .then((result) => {
+        console.log(result);
+        setSwalProps({
+          show: true,
+          title: 'Accion Finalizada',
+          text: 'Correo Enviado Correctamente',
+        });
+        setForm(emptyForm);
+      }, (error) => {
+        setSwalProps({
+          show: true,
+          title: 'Accion Denegada',
+          text: 'Error al enviar el correo',
+        });
+      });
+  }
+
+
   return (
     <div className='contenedor'>
       <div className="row row-contact">
@@ -24,10 +66,15 @@ const Contact = () => {
               info@inmunolab.gt
             </p>
             <p className=''>
-
               <i className='fas fa-phone mr-4' style={{ color: '#08ABD8' }}></i>
               <Link to="">
-                +502 40372071/39948444
+                +502 40372071
+              </Link>
+            </p>
+            <p className=''>
+              <i className='fa-brands fa-whatsapp mr-4' style={{ color: '#08ABD8' }}></i>
+              <Link to="">
+                +502 40372071
               </Link>
             </p>
             <br />
@@ -51,16 +98,16 @@ const Contact = () => {
             <br />
             <div className="form-group">
               <div className="form-group">
-                <input type="text" placeholder='Nombre' className="form-control" />
+                <input type="text" value={form.name} placeholder='Nombre' className="form-control" name="name" onChange={(e) => handleChange(e)} />
               </div>
               <div className="form-group">
-                <input type="text" placeholder='Correo' className="form-control" />
+                <input type="email" placeholder='Correo' value={form.email} className="form-control" onChange={(e) => handleChange(e)} name="email" />
               </div>
               <div className="form-group">
-                <textarea cols="30" rows="10" placeholder='Mensaje' className="form-control">
+                <textarea cols="30" rows="10" value={form.message} placeholder='Mensaje' className="form-control" onChange={(e) => handleChange(e)} name="message">
                 </textarea>
               </div>
-              <button className='btn btn-light'> <i className='fa-solid fa-paper-plane fa-fw'></i> Enviar</button>
+              <button onClick={sendEmail} className='btn btn-light'> <i className='fa-solid fa-paper-plane fa-fw' ></i> Enviar</button>
             </div>
           </div>
         </div>
@@ -90,6 +137,7 @@ const Contact = () => {
           <img src={qr} className="qr-img" />
         </div>
       </div>
+      <SweetAlert2 {...swalProps} />
     </div>
   );
 }

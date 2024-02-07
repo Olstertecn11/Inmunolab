@@ -1,5 +1,6 @@
 
 import icon from './../icons/Inmunolab/Logos lab/Logo Final - InmunoLab-01.jpg';
+import icon_aniv from './../icons/Inmunolab/Aniv.png';
 import './styles/Nav.css';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -33,7 +34,7 @@ const Nav = () => {
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
                 <p className='mt-3 text-white nav-text'>
-                  4a av. 13-67 Zona 9, Guatemala
+                  4a Av. 13-67 Zona 9, Guatemala
                 </p>
               </li>
               <li className='mt-3 mr-4 text-white nav-text'>
@@ -55,7 +56,7 @@ const Nav = () => {
       </nav >
       <nav className="navbar navbar-expand-lg navbar-light  navbar-1" style={{ background: 'white' }}>
         <div className="container-fluid">
-          <a className="navbar-brand"><img src={icon} width={190} /></a>
+          <a className="navbar-brand"><img src={icon} width={250} /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -75,7 +76,7 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to={'/Services'}
                   className={active === 'Services' ? 'nav-link active' : 'nav-link'}
-                >Servicios</Link>
+                >Pruebas de diagnósticos</Link>
               </li>
               <li className="nav-item">
                 <Link to={'/Contact'}
@@ -84,7 +85,7 @@ const Nav = () => {
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Resultados
+                  Consulta de Resultados
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <Link to='https://inmunolab.dxclinicos.com/login' className="dropdown-item" href="#">Paciente</Link>
@@ -95,9 +96,10 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to="/Preguntas"
                   className={active === 'Preguntas' ? 'nav-link active' : 'nav-link'}
-                >Preguntas </Link>
+                >Preguntas Frecuentes</Link>
               </li>
             </ul>
+            <img src={icon_aniv} alt="" style={{ width: '5vw' }} />
           </div>
         </div>
       </nav>

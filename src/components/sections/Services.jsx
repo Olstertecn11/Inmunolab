@@ -48,7 +48,7 @@ const Services = () => {
   return (
     <>
       <div className="row services-row">
-        <h2 className='title-services animate__animated animate__fadeInLeft'>Nuestros Servicios</h2>
+        <h2 className='title-services animate__animated animate__fadeInLeft'>Pruebas de Diagnósticos</h2>
         <span className='line-services'></span>
         <div className="col-md-5 mx-auto">
           <div className="card-body service-card">

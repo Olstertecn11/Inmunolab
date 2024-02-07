@@ -5,7 +5,7 @@ import services_icon from './../icons/Inmunolab/health.png';
 import health_icon from './../icons/Inmunolab/consul.png';
 import location_icon from './../icons/Inmunolab/location.png';
 import background from './../icons/Inmunolab/wave-haikei2.png';
-import nosotros_img from './../icons/Inmunolab/nosotros.png'
+import nosotros_img from './../icons/Inmunolab/espiral.png'
 import initial_image from './../icons/Inmunolab/test_show.jpeg';
 
 import slider_1 from './../icons/Inmunolab/footer_1.jpeg';
@@ -72,10 +72,16 @@ const Home = () => {
         <div className='col-md-6 nosotros mx-auto'>
           <h2 className='text-primary text-center animate__animated animate__slideInDown'>Nosotros</h2>
           <p className='p-1 text-center mx-auto animate__animated animate__slideInDown'>
-            Emitimos resultados de forma oportuna con respaldo de garantía de calidad de la AQBG (Asociación de Químicos Biólogos de Guatemala) en el programa PEEC (Programa de Evaluación Externa de Calidad). Quienes evalúan y corroboran la certeza de los exámenes clínicos que se realizan.
+            Por más de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con el equipo de última generación.
           </p>
           <p className='p-1 text-center mx-auto'>
-            Somos un laboratorio con proyección social. Que da soporte a distintas instituciones del sector público y privado, para ayudar aquellos guatemaltecos de escasos recursos que no pueden costear la totalidad de las pruebas de la orden de laboratorio emitida por el Médico tratante.
+            Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
+          </p>
+          <p className='p-1 text-center mx-auto'>
+            PERSONAL CAPACITADO Y EQUIPO DE VANGUARDIA
+            <br />
+            Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.
+            Así como innovamos constantemente en equipos de alta tecnología y a la vanguardia de salud.
           </p>
           <hr />
 
