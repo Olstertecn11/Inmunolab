@@ -42,31 +42,6 @@ const Home = () => {
       </div>
 
       <hr />
-      <h2 className='card-title text-center info-title'>Información</h2>
-      <hr />
-      <div className="row" >
-        <div id="carouselExampleControls" className="carousel slide info-slide" data-ride="carousel" style={{ marginLeft: '30vw' }}>
-          <div className="carousel-inner" >
-            <div className="carousel-item active" style={{ background: 'none' }}>
-              <img className="d-block " src={info1} alt="First slide" style={{ width: '40vw' }} />
-            </div>
-            <div className="carousel-item" style={{ background: 'none', }}>
-              <img className="d-block " src={info2} alt="Second slide" style={{ width: '40vw' }} />
-            </div>
-          </div>
-          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
-
-      </div>
-
-      <hr />
 
       <div className="row services animate__animated animate__fadeInLeft">
         <div className='col-md-6 nosotros mx-auto'>

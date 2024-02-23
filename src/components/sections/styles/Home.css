@@ -13,6 +13,10 @@
 	margin: 0 !important;
 }
 
+.services {
+  height: 48vw !important;
+}
+
 .image{
 	filter: brightness(35%);
 	padding: 0;
