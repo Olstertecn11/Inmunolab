@@ -1,6 +1,6 @@
 
 import icon from './../icons/Inmunolab/Logos lab/Logo Final - InmunoLab-01.jpg';
-import icon_aniv from './../icons/Inmunolab/Aniv.png';
+import icon_aniv from './../icons/Inmunolab/Aniv2.png';
 import './styles/Nav.css';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -76,7 +76,7 @@ const Nav = () => {
               <li className="nav-item">
                 <Link to={'/Services'}
                   className={active === 'Services' ? 'nav-link active' : 'nav-link'}
-                >Pruebas de diagnósticos</Link>
+                >Pruebas de diagnóstico</Link>
               </li>
               <li className="nav-item">
                 <Link to={'/Contact'}

@@ -8,8 +8,8 @@ import background from './../icons/Inmunolab/wave-haikei2.png';
 import nosotros_img from './../icons/Inmunolab/espiral.png'
 import initial_image from './../icons/Inmunolab/test_show.jpeg';
 
-import slider_1 from './../icons/Inmunolab/footer_1.jpeg';
-import slider_2 from './../icons/Inmunolab/footer_2.jpeg';
+import slider_1 from './../icons/Inmunolab/img_pruebas1.jpg';
+import slider_2 from './../icons/Inmunolab/img_pruebas2.jpg';
 import worker_img from './../icons/Inmunolab/worker.jpeg';
 
 import info1 from './../icons/Inmunolab/nuevoo.jpeg';
@@ -126,22 +126,32 @@ const Home = () => {
             <div className="carousel-item active" style={{ background: 'none' }}>
               <img style={{ height: '100%' }} className="d-block " src={worker_img} alt="First slide" />
               <div className="carousel-caption d-none d-md-block first-block">
-                <h5>Personal Capacitado y Equipo de Vanguardia</h5>
-                <p>Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.</p>
+                <h5>Personal capacitado y equipos de alta tecnología.</h5>
+                <p>
+                  Contamos con profesionales y personal altamente calificado
+                  para atender la necesidad de cada paciente. Innovamos constantemente en equipos de alta
+                  tecnología y a la vanguardia de la salud
+                </p>
               </div>
             </div>
             <div className="carousel-item" style={{ background: 'none' }}>
               <img style={{ height: '100%' }} className="d-block " src={slider_1} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Tecnólogia</h5>
-                <p>Innovamos constantemente en equipos de alta tecnología y a la vanguardia de la salud.</p>
+                <h5>Resultados confiables y en tiempo.</h5>
+                <p>
+                  Resultados, servicio y atención personalizada con excelencia. Diligencia en la entrega a tiempo
+                  de resultados precisos, rápidos y oportunos.
+                </p>
               </div>
             </div>
             <div className="carousel-item" style={{ background: 'none' }}>
               <img style={{ height: '100%' }} className="d-block " src={slider_2} alt="First slide" />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Facilidades de Pago</h5>
-                <p>Precios accesibles y competitivos con el mercado disponibles para ser cancelados por credito, debito, transferencias, etc... </p>
+                <h5>Alta experiencia.</h5>
+                <p>
+                  Por más de 45 años al servicio de la salud de los guatemaltecos. Atención especializada y
+                  diagnóstico confiable
+                </p>
               </div>
             </div>
           </div>
