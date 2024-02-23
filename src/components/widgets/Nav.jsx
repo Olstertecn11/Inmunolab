@@ -54,7 +54,7 @@ const Nav = () => {
           </div>
         </div >
       </nav >
-      <nav className="navbar navbar-expand-lg navbar-light  navbar-1" style={{ background: 'white' }}>
+      <nav className="navbar navbar-expand-lg navbar-light  navbar-1" style={{ background: 'white', overflow: 'hidden' }}>
         <div className="container-fluid">
           <a className="navbar-brand"><img src={icon} width={250} /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,14 +74,19 @@ const Nav = () => {
                 >Nosotros</Link>
               </li>
               <li className="nav-item">
-                <Link to={'/Services'}
-                  className={active === 'Services' ? 'nav-link active' : 'nav-link'}
+                <Link to={'/Pruebas'}
+                  className={active === 'Pruebas' ? 'nav-link active' : 'nav-link'}
                 >Pruebas de diagnóstico</Link>
               </li>
               <li className="nav-item">
                 <Link to={'/Contact'}
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >Contáctanos</Link>
+              </li>
+              <li className="nav-item">
+                <Link to={'/Services'}
+                  className={active === 'Services' ? 'nav-link active' : 'nav-link'}
+                >Servicios</Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -98,8 +103,8 @@ const Nav = () => {
                   className={active === 'Preguntas' ? 'nav-link active' : 'nav-link'}
                 >Preguntas Frecuentes</Link>
               </li>
+              <img src={icon_aniv} alt="" style={{ width: '5vw' }} />
             </ul>
-            <img src={icon_aniv} alt="" style={{ width: '5vw' }} />
           </div>
         </div>
       </nav>

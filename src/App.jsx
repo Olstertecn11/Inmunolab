@@ -8,6 +8,7 @@ import Nav from './components/widgets/Nav';
 import Footer from './components/widgets/Footer';
 import Questions from './components/sections/Questions';
 import UpButton from './components/widgets/UpButton';
+import Pruebas from './components/sections/Pruebas';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/' exec element={<Home />} />
         <Route path='/About' exec element={<About />} />
         <Route path='/Services' exec element={<Services />} />
+        <Route path='/Pruebas' exec element={<Pruebas />} />
         <Route path='/Contact' exec element={<Contact />} />
         <Route path='/Preguntas' exec element={<Questions />} />
       </Routes>
