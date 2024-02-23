@@ -3,34 +3,18 @@ import img1 from './../icons/Inmunolab/observador.jpeg';
 import img2 from './../icons/Inmunolab/img_pruebas1.jpg';
 import img3 from './../icons/Inmunolab/img_pruebas2.jpg';
 
-const CustomSlide = ({ images, titles, texts, showTitle, showBack, order, imgBack }) => {
+const CustomSlide = ({ images, titles, texts, showTitle, showBack, order, imgBack, Ids }) => {
 
-  const [image, setImage] = useState(images[0]);
+  const [image, setImage] = useState(images[Ids[0]]);
+  const [idShow, setIdShow] = useState(Ids[0]);
 
   function changeImage(option) {
     setImage(images[option]);
   }
 
-  const handleClick = (event) => {
-    changeImage(event.target.id);
-    const lastButtons = document.querySelectorAll(".active-b");
-    lastButtons.forEach(button => {
-      button.classList.remove("active-b");
-    });
-
-    const currentButton = event.target;
-    currentButton.classList.add("active-b");
-
-    const lastPs = document.querySelectorAll(".p-show");
-    lastPs.forEach(p => {
-      p.classList.remove("p-show");
-    });
-
-    const IdToSearch = event.target.innerText;
-    const currentText = document.querySelectorAll("#t" + event.target.id);
-    currentText.forEach(text => {
-      text.classList.add("p-show");
-    });
+  const handleClick = (_id) => {
+    changeImage(_id);
+    setIdShow(_id);
   }
   return (
     <>
@@ -41,18 +25,17 @@ const CustomSlide = ({ images, titles, texts, showTitle, showBack, order, imgBac
           <div className="card-body service-card">
             <img src={image} />
             <div className="buttons">
-              <button id="0" className='btn active-b' onClick={handleClick}>{titles[0]}</button>
-              <button id="1" className='btn' onClick={handleClick}>{titles[1]}</button>
+              {
+                Ids.map((item, index) => (<button key={'bt' + item} id={Ids[item]} className={item == idShow ? 'btn active-b' : 'btn'} onClick={() => handleClick(item)}>{titles[index]}</button>))
+              }
             </div>
           </div>
         </div>
         <div className="col-md-5 mx-auto row-text-s animate__animated animate__fadeInLeft">
-          <p className={order ? 'services-text p-show text-dark' : 'services-text p-show '} id='t0' >
-            {texts[0]}
+          <p key={'p' + 1} className={order ? 'services-text p-show text-dark' : 'services-text'} style={{ display: 'block' }}>
+            {texts[idShow % 2 == 0 || idShow == 0 ? 0 : 1]}
           </p>
-          <p className={order ? 'services-text text-dark' : 'services-text'} id="t1">
-            {texts[1]}
-          </p>
+
           <span className='line-p'></span>
         </div>
 

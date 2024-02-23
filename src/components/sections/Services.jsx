@@ -16,7 +16,6 @@ const Services = () => {
     "https://saludconlupa.com/media/images/img-20210810-wa0065.width-1920.jpg"
   ]
 
-  const [image, setImage] = useState(images[0]);
 
 
   useEffect(() => {
@@ -29,19 +28,19 @@ const Services = () => {
         titles={["Laboratorio de Referencia", "Exámenes para tarjeta de salud"]}
         texts={["Hemos sido pioneros en referencias hospitalarias y de laboratorios por más de 45 años, dando confianza y certeza de los resultados.",
           "Uno de los requisitos para obtener la tarjeta de salud o constancia de buena salud, es realizar los siguientes exámenes de laboratorio:"]}
-        showTitle={true} showBack={true} order={false}
+        showTitle={true} showBack={true} order={false} Ids={[0, 1]}
       />
       <CustomSlide images={images}
         titles={["Tomas de muestras con doctores", "Hospitalario"]}
         texts={["Planificamos con el área de salud de distintas empresas, la toma de muestras para pacientes a nivel individual y corporativo.",
           "Recepción de toma de muestras de pacientes hospitalarios y ambulatorios."]}
-        showTitle={false} showBack={false} order={true}
+        showTitle={false} showBack={false} order={true} Ids={[2, 3]}
       />
       <CustomSlide images={images}
         titles={["Seguros", "Jornadas de exámenes de laboratorio"]}
         texts={["Contamos con una amplia cobertura de seguros, como lo son:",
           "Planificamos con el área de salud de distintas empresas, la toma de muestras para pacientes a nivel individual y corporativo."]}
-        showTitle={false} showBack={true} order={false}
+        showTitle={false} showBack={true} order={false} Ids={[4, 5]}
       />
 
     </div>
