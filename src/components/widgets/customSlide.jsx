@@ -39,7 +39,7 @@ const CustomSlide = ({ title, images, titles, texts, showTitle, showBack, order,
           <span className='line-p'></span>
         </div>
 
-        {showBack ? <img src={img1} className="img-back-s" /> : ''}
+        {showBack ? <img src={imgBack ? imgBack : img1} className="img-back-s" /> : ''}
       </div>
     </>
   );

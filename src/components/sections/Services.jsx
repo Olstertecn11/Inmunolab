@@ -1,4 +1,5 @@
 
+import bg_back from '../icons/Inmunolab/footer_1.jpeg'
 import './styles/Services.css'
 
 import { useState, useEffect } from 'react';
@@ -27,18 +28,21 @@ const Services = () => {
   return (
     <div>
       <CustomSlide images={images}
+        imgBack={bg_back}
         titles={["Laboratorio de Referencia", "Exámenes para tarjeta de salud"]}
         texts={["Hemos sido pioneros en referencias hospitalarias y de laboratorios por más de 45 años, dando confianza y certeza de los resultados.",
           "Uno de los requisitos para obtener la tarjeta de salud o constancia de buena salud, es realizar los siguientes exámenes de laboratorio:"]}
         showTitle={true} showBack={true} order={false} Ids={[0, 1]}
       />
       <CustomSlide images={images}
+        imgBack={bg_back}
         titles={["Tomas de muestras con doctores", "Hospitalario"]}
         texts={["Planificamos con el área de salud de distintas empresas, la toma de muestras para pacientes a nivel individual y corporativo.",
           "Recepción de toma de muestras de pacientes hospitalarios y ambulatorios."]}
         showTitle={false} showBack={false} order={true} Ids={[2, 3]}
       />
       <CustomSlide images={images}
+        imgBack={bg_back}
         titles={["Seguros", "Jornadas de exámenes de laboratorio"]}
         texts={["Contamos con una amplia cobertura de seguros, como lo son:",
           "Planificamos con el área de salud de distintas empresas, la toma de muestras para pacientes a nivel individual y corporativo."]}

@@ -1,15 +1,105 @@
-
+import Swal from 'sweetalert2'
+import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './styles/Questions.css';
 
 const Questions = () => {
   const history = useNavigate();
+
+
+  const texts = [
+    `<li>Se recomienda que sea la primera orina de la mañana, o bien retener las ganas de orinar por lo menos dos horas antes de orinar y entregar la muestra para su análisis, en un frasco estéril nuevo.</li>
+                  <li>Tomar en cuenta que el tiempo máximo de la recolección</li>
+                  <li>De la muestra para su análisis en el laboratorio es de 2 horas</li>
+                  <li>Las mujeres no deben estar menstruando al momento del análisis de orina</li>
+                  <li>Para niños pequeños (menores de 2 años), se deben limpiar sus partes
+                    íntimas y colocar la bolsa pediátrica por la madre o bien solicitar que el
+                    técnico del laboratorio la haga en presencia de la madre.
+                  </li>
+                  <li>Rotular las muestras con el nombre del paciente, edad y hora de recolección.</li>
+    `,
+    `    
+              <li>
+                      Antes de empezar, lavarse las manos.
+                    </li>
+                    <li>
+                      Para las mujeres, limpiar de adelante hacia atrás, asegurándose de que no queden restos de jabón ni agua.
+                    </li>
+                    <li>
+                      Para los hombres no circuncidados, retraer el prepucio para limpiar el glande.
+                    </li>
+                    <li>
+                      Utilizar un frasco para orina estéril nuevo (de 100 mL).
+                    </li>
+                    <li>
+                      Al comenzar a orinar, desechar la primera porción y recolectar la siguiente sin dejar de orinar.
+                    </li>
+                    <li>
+                      En mujeres, separar los labios mayores con la mano para comenzar a orinar. En hombres no circuncidados, sostener el prepucio y dejar pasar una cantidad significativa de orina. En los hombres no circuncidados hay que sostener el prepucio, dejando pasar una cantidad significante de orina.
+                    </li>
+                    <li>
+                      Acercar el frasco estéril y llenarlo 2/3, evitando que el chorro de orina toque la región genital.
+                    </li>
+                    <li>
+                      Cerrar herméticamente el frasco. El frasco debe ser estéril y nuevo, por lo que no se debe tocar su interior al abrirlo.
+                    </li>
+        `,
+    `
+<li>Un recipiente de plástico con capacidad de un galón para recolectar la orina de 24 horas.</li>
+        <li>Inicias la recolección de orina durante 24 horas:
+        </li>
+                <li>Comenzar con la primera orina de la mañana, es decir aproximadamente a las 6:00 AM, y depositar toda la orina en el recipiente.</li>
+                <li>Cada vez que orine depositar toda la orina en el recipiente.</li>
+                <li>La última muestra antes de las 6:00 de la mañana siguiente no se deposita en el recipiente.</li>
+        <li>Escribir el nombre en la etiqueta.</li>
+        <li>Se deberá extraer sangre para realizar análisis de sangre de Creatinina, si el examen de la orina es Depuración de Creatinina en 24 horas.</li>
+
+`,
+    `
+        <li>Se recomienda que sea la primera muestra del día.</li>
+        <li>No llenar completamente el frasco, solo se necesita la mitad (frasco de 100 mL, en ocasiones viene con paleta para recolectar la muestra).</li>
+        <li>Llevar la muestra al laboratorio dentro de las 2 horas posteriores a su recolección.</li>
+        <li>Rotular las muestras con el nombre del paciente, edad y hora de recolección.</li>
+        <li>TOMAR EN CUENTA QUE EL TIEMPO MAXIMO DE RECOLECCION DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</li>
+`,
+    `
+<li>Se recomienda que la muestra sea la primera del día.</li>
+        <li>No llenar completamente el frasco de la muestra, solo se necesita la mitad (frasco de 100 mL, en ocasiones viene con paleta para recolectar la muestra).</li>
+        <li>Llevar la muestra al laboratorio dentro de las 2 horas posteriores a su recolección.</li>
+        <li>Rotular las muestras con el nombre del paciente, edad y hora de recolección.</li>
+        <li>TOMAR EN CUENTA QUE EL TIEMPO MÁXIMO DE RECOLECCIÓN DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</li>
+`
+
+  ]
+
+
+
+  const openModal = (title, content) => {
+    Swal.fire({
+      title: `<strong>${title}</strong>`,
+      icon: "info",
+      html: `${content}`,
+      showCloseButton: true,
+      showCancelButton: true,
+      focusConfirm: false,
+      confirmButtonText: `
+<i class="fa fa-thumbs-up"></i> Gracias!
+`,
+      confirmButtonAriaLabel: "No Entendi!",
+      cancelButtonText: `
+<i class="fa fa-thumbs-down"></i>
+`,
+      cancelButtonAriaLabel: "Thumbs down"
+    });
+
+  }
+
+
   return (
     <div>
       <div className="row questions-row">
         <img src="https://dfb.epn.edu.ec/images/Noticias/faqs2.jpg" className='img-q' />
       </div>
-
       <h4 className='card-title text-primary text-center'>Exámenes de Orina</h4>
       <hr style={{ width: 180, background: '#8497AB' }} />
       <div className="row questions-content-row">
@@ -37,7 +127,11 @@ const Questions = () => {
                 data-parent="#accordionOrina"
               >
                 <div className="card-body text-justify">
-                  Se recomienda que sea la primera orina de la mañana, si en dado caso no es posible, dejar transcurrir dos horas sin haber tomado líquido y sin ir al sanitario, posteriormente tomar la muestra en un recipiente esterilizado y limpio. Tomar en cuenta que el tiempo máximo desde la recolección de la muestra para ser analizada en el laboratorio son 2Hrs.
+
+                  El examen general de orina se entiende como una prueba de rutina, rápida y sencilla. Este análisis es uno de los más importantes ya que proporciona información general sobre el estado de salud del paciente al médico. La muestra de orina también se utiliza para apoyar el diagnóstico y seguimiento de tratamientos, así como para detectar enfermedades renales, diabetes, enfermedades hepáticas y otras de origen diverso (autoinmunes).
+                  La realización de la muestra por parte del paciente podría ser posible debido al aspecto de la muestra (turbia, limpia, amarilla u opaca), al olor de la misma (dulce o fétido) o a síntomas como orinar con frecuencia (poliuria) o sentir ardor al orinar, independientemente del género.
+                  <hr />
+                  <Link className='text-danger' onClick={() => openModal('Instrucciones', texts[0])}>Instrucciones</Link>
                 </div>
               </div>
             </div>
@@ -62,8 +156,20 @@ const Questions = () => {
                 aria-labelledby="headingOrinaTwo"
                 data-parent="#accordionOrina"
               >
-                <div className="card-body text-justify">
-                  Antes de tomar la muestra se debe de realizar la limpieza adecuada en el área genital con jabón y abundante agua. Se recomienda que sea la primera orina de la mañana, emitir un poco de muestra fuera del recipiente y el resto colocarlo en el frasco esterilizado y limpio. Si en dado caso no es posible la primera orina de la mañana, dejar transcurrir dos horas sin haber tomado líquido y sin ir al sanitario, posteriormente tomar la muestra en un recipiente esterilizado y limpio. Tomar en cuenta que el tiempo máximo desde la recolección de la muestra para ser analizada en el laboratorio son 2Hrs.
+                <div className="card-body text-justify p-4">
+                  El urocultivo es un examen de laboratorio para analizar la presencia de bacterias u otros microorganismos en una muestra de orina, lo que indica la presencia de infecciones urinarias en adultos y niños. Es más frecuente en mujeres y niños pequeños
+                  <hr />
+                  <p>
+                    <b>Estos análisis se llevan a cabo cuando se sospecha</b>
+                    <li>Inecciones urinarias o vesicales</li>
+                    <li>Síntomas como dolor o ardor al orinar, presencia de sangre en la orina, fiebre o malestar</li>
+                    <li>Cultivos de control para verificar completa desaparición de la infeccon urinaria</li>
+                    <br />
+                    <b className='text-font-italic'> <em>TOMAR EN CUENTA QUE EL TIEMPO MAXIMO DE LA RECOLECCION DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</em> </b>
+                  </p>
+                  <hr />
+
+                  <Link className='text-danger' onClick={() => openModal('Instrucciones', texts[1])}>Instrucciones</Link>
                 </div>
               </div>
             </div>
@@ -89,7 +195,9 @@ const Questions = () => {
                 data-parent="#accordionOrina"
               >
                 <div className="card-body text-justify">
-                  Se necesita una muestra de orina de 24 horas, recolectarla en un recipiente de plástico estéril para orina de 24 horas (solicitar el recipiente al laboratorio). El día elegido, se desechará la primera orina de la mañana. A partir de ese momento, se recogerá la orina emitida a lo largo de todo el día, incluyendo la primera orina de la mañana siguiente.
+                  La recolección de orina en 24 horas es una prueba diagnóstica rápida y simple que ayuda a diagnosticar problemas en los riñones. Generalmente se realiza para determinar cuánta creatinina se elimina a través de los riñones, pero también puede usarse para medir proteínas, hormonas, minerales y otros compuestos químicos.
+                  <hr />
+                  <Link className='text-danger' onClick={() => openModal('Instrucciones', texts[2])}>Instrucciones</Link>
                 </div>
               </div>
             </div>
@@ -124,7 +232,9 @@ const Questions = () => {
                 data-parent="#accordionHeces"
               >
                 <div className="card-body text-justify">
-                  Recolectar la muestra de heces en recipiente esterilizado y limpio, con un máximo de 2Hrs.
+                  El examen de heces consiste en la obtención de una muestra del paciente que posteriormente se analiza en un laboratorio clínico. Permite al médico diagnosticar la presencia de infecciones o problemas en el tracto intestinal, así como detectar sangre u otros signos de enfermedades inflamatorias o tumorales.
+                  <hr />
+                  <Link className='text-danger' onClick={() => openModal('Instrucciones', texts[3])}>Instrucciones</Link>
                 </div>
               </div>
             </div>
@@ -150,7 +260,9 @@ const Questions = () => {
                 data-parent="#accordionHeces"
               >
                 <div className="card-body text-justify">
-                  Recolectar la muestra de heces en recipiente esterilizado y limpio, con un máximo de 2Hrs. Tener cuidado que la muestra de heces no se mezcle con la orina.
+                  El coprocultivo, también conocido como cultivo microbiológico de heces, no requiere de una preparación especial, pero se deben tomar algunos cuidados al recolectar la muestra para evitar alteraciones en los resultados. Se recomienda realizar este examen cuando se sospeche de infecciones bacterianas intestinales u otras alteraciones gastrointestinales
+                  <hr />
+                  <Link className='text-danger' onClick={() => openModal('Instrucciones', texts[4])}>Instrucciones</Link>
                 </div>
               </div>
             </div>

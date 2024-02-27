@@ -161,6 +161,9 @@
   left: 0%;
 }
 
+.carousel-item{
+  z-index: -2;
+}
 
 .carousel-caption h5{
   font-weight: bold;
