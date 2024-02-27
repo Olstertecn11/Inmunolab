@@ -23,7 +23,7 @@ const CustomSlide = ({ images, titles, texts, showTitle, showBack, order, imgBac
         {showTitle ? <span className='line-services'></span> : ''}
         <div className={order ? 'col-md-5 mx-auto order-md-2' : 'col-md-5 mx-auto'}>
           <div className="card-body service-card">
-            <img src={image} />
+            <img src={image} style={{ objectFit: 'contain' }} />
             <div className="buttons">
               {
                 Ids.map((item, index) => (<button key={'bt' + item} id={Ids[item]} className={item == idShow ? 'btn active-b' : 'btn'} onClick={() => handleClick(item)}>{titles[index]}</button>))

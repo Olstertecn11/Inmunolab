@@ -3,16 +3,18 @@ import './styles/Services.css'
 
 import { useState, useEffect } from 'react';
 import CustomSlide from '../widgets/customSlide';
+import img_seguros from '../icons/Inmunolab/seguros.png';
 
 
 
 const Services = () => {
   var images = [
     "https://s3-pagapoco-files-dev.s3.us-east-2.amazonaws.com/profile-images/pagapoco_user_oferta9914posi1.jpeg",
-    "https://quimicafacil.net/wp-content/uploads/2021/06/Notas-de-quimica-dest-1.jpg",
+    "https://www.portalredsalud.cl/wp-content/uploads/2022/05/Estos-son-los-12-examenes-rutinarios-de-salud-que-se-deben-realizar-las-personas-desde-los-50-anos.jpg",
     "https://s1.eestatic.com/2019/06/11/ciencia/salud/salud_405470340_125254447_1706x1280.jpg",
-    "https://www.centroanaliticopozuelo.com/wp-content/uploads/2022/03/shutterstock_1702172983-scaled.jpg",
-    "https://www.enac.es/documents/7020/73fef32e-4e1c-4ae5-b4a0-722d8d618626",
+    "https://papelmatic.com/wp-content/uploads/2022/01/papelmatic-higiene-profesional-que-es-la-higiene-hospitalaria-y-como-afecta.jpg",
+    img_seguros,
+    "https://easymd.app/wp-content/uploads/2023/08/8-Pruebas-de-laboratorio-mas-comunes.webp",
     "https://saludconlupa.com/media/images/img-20210810-wa0065.width-1920.jpg"
   ]
 
