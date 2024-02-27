@@ -54,7 +54,7 @@ const Nav = () => {
           </div>
         </div >
       </nav >
-      <nav className="navbar navbar-expand-lg navbar-light  navbar-1" style={{ background: 'white', overflow: 'hidden' }}>
+      <nav className="navbar navbar-expand-lg navbar-light  navbar-1" style={{ background: 'white' }}>
         <div className="container-fluid">
           <a className="navbar-brand"><img src={icon} width={250} /></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +90,7 @@ const Nav = () => {
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Consulta de Resultados
+                  Consulta de resultados
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <Link to='https://inmunolab.dxclinicos.com/login' className="dropdown-item" href="#">Paciente</Link>

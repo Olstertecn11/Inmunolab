@@ -58,7 +58,10 @@ li:hover{
 	font-weight: bold;
 }
 
-
+.dropdown-menu{
+  top: 60%;
+  left: 10%;
+}
 
 
 
