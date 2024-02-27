@@ -3,7 +3,7 @@ import img1 from './../icons/Inmunolab/observador.jpeg';
 import img2 from './../icons/Inmunolab/img_pruebas1.jpg';
 import img3 from './../icons/Inmunolab/img_pruebas2.jpg';
 
-const CustomSlide = ({ images, titles, texts, showTitle, showBack, order, imgBack, Ids }) => {
+const CustomSlide = ({ title, images, titles, texts, showTitle, showBack, order, imgBack, Ids }) => {
 
   const [image, setImage] = useState(images[Ids[0]]);
   const [idShow, setIdShow] = useState(Ids[0]);
@@ -19,7 +19,7 @@ const CustomSlide = ({ images, titles, texts, showTitle, showBack, order, imgBac
   return (
     <>
       <div className="row services-row">
-        {showTitle ? <h2 className='title-services animate__animated animate__fadeInLeft'>Servicios</h2> : ''}
+        {showTitle ? <h2 className='title-services animate__animated animate__fadeInLeft'>{title}</h2> : ''}
         {showTitle ? <span className='line-services'></span> : ''}
         <div className={order ? 'col-md-5 mx-auto order-md-2' : 'col-md-5 mx-auto'}>
           <div className="card-body service-card">
