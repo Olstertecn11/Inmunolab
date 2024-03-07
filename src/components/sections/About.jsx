@@ -24,7 +24,7 @@ const About = () => {
         <h2 className='title-about animate__animated animate__slideInDown'>Acerca de Nosotros</h2>
         <span className='line'></span>
         <p className='p-about animate__animated animate__slideInLeft'>
-          Por mas de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con el equipo de última generación.
+          Por mas de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con equipo de última generación.
           <br />
           <br />
           Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.

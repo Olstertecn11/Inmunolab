@@ -94,7 +94,7 @@ const Contact = () => {
         </div>
         <div className="col-md-4 col1">
           <div className="card-body card-1">
-            <h2 className="card-title animate__animated animate__fadeInLeft">Contactanos</h2>
+            <h2 className="card-title animate__animated animate__fadeInLeft">Contáctanos</h2>
             <br />
             <div className="form-group">
               <div className="form-group">

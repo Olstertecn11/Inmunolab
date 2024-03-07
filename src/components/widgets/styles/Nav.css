@@ -1,4 +1,6 @@
-
+.collapse.navbar-collapse.justify-content-end{
+  overflow: hidden;
+}
 .navbar-nav{
 	margin-right: 10vw !important;
 }

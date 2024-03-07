@@ -78,11 +78,7 @@ const Nav = () => {
                   className={active === 'Pruebas' ? 'nav-link active' : 'nav-link'}
                 >Pruebas de diagnóstico</Link>
               </li>
-              <li className="nav-item">
-                <Link to={'/Contact'}
-                  className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >Contáctanos</Link>
-              </li>
+
               <li className="nav-item">
                 <Link to={'/Services'}
                   className={active === 'Services' ? 'nav-link active' : 'nav-link'}
@@ -102,6 +98,11 @@ const Nav = () => {
                 <Link to="/Preguntas"
                   className={active === 'Preguntas' ? 'nav-link active' : 'nav-link'}
                 >Preguntas Frecuentes</Link>
+              </li>
+              <li className="nav-item">
+                <Link to={'/Contact'}
+                  className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
+                >Contáctanos</Link>
               </li>
               <img src={icon_aniv} alt="" style={{ width: '5vw' }} />
             </ul>

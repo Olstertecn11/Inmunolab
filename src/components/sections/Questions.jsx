@@ -12,9 +12,10 @@ const Questions = () => {
                   <li>Tomar en cuenta que el tiempo máximo de la recolección</li>
                   <li>De la muestra para su análisis en el laboratorio es de 2 horas</li>
                   <li>Las mujeres no deben estar menstruando al momento del análisis de orina</li>
-                  <li>Para niños pequeños (menores de 2 años), se deben limpiar sus partes
-                    íntimas y colocar la bolsa pediátrica por la madre o bien solicitar que el
-                    técnico del laboratorio la haga en presencia de la madre.
+                  <li>
+                      Para niños pequeños se deben limpiar sus partes íntimas y para niños menores de 2 años colocar bolsa
+                      pediátrica por parte de la persona responsable del menor del mismo.
+
                   </li>
                   <li>Rotular las muestras con el nombre del paciente, edad y hora de recolección.</li>
     `,
@@ -48,19 +49,21 @@ const Questions = () => {
 <li>Un recipiente de plástico con capacidad de un galón para recolectar la orina de 24 horas.</li>
         <li>Inicias la recolección de orina durante 24 horas:
         </li>
-                <li>Comenzar con la primera orina de la mañana, es decir aproximadamente a las 6:00 AM, y depositar toda la orina en el recipiente.</li>
+                <li>Se inicia recolectando la segunda orina de la mañana.</li>
                 <li>Cada vez que orine depositar toda la orina en el recipiente.</li>
-                <li>La última muestra antes de las 6:00 de la mañana siguiente no se deposita en el recipiente.</li>
+                <li>La ultima muestraa recolectar, es la primera orina del día siguiente.</li>
         <li>Escribir el nombre en la etiqueta.</li>
-        <li>Se deberá extraer sangre para realizar análisis de sangre de Creatinina, si el examen de la orina es Depuración de Creatinina en 24 horas.</li>
+        <li>En caso de depuración de creatina, se le extraerá sangre en el laboratorio.</li>
 
 `,
     `
-        <li>Se recomienda que sea la primera muestra del día.</li>
-        <li>No llenar completamente el frasco, solo se necesita la mitad (frasco de 100 mL, en ocasiones viene con paleta para recolectar la muestra).</li>
+        <li>
+            No llenar completamente el frasco, solo se necesita el equivalente a una ficha de 5 centavos frasco viene
+            con paleta
+        </li>
         <li>Llevar la muestra al laboratorio dentro de las 2 horas posteriores a su recolección.</li>
         <li>Rotular las muestras con el nombre del paciente, edad y hora de recolección.</li>
-        <li>TOMAR EN CUENTA QUE EL TIEMPO MAXIMO DE RECOLECCION DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</li>
+        <li>TOMAR EN CUENTA QUE EL TIEMPO MÁXIMO DE RECOLECCIÓN DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</li>
 `,
     `
 <li>Se recomienda que la muestra sea la primera del día.</li>
@@ -161,7 +164,7 @@ const Questions = () => {
                   <hr />
                   <p>
                     <b>Estos análisis se llevan a cabo cuando se sospecha</b>
-                    <li>Inecciones urinarias o vesicales</li>
+                    <li>Infecciones urinarias o vesicales</li>
                     <li>Síntomas como dolor o ardor al orinar, presencia de sangre en la orina, fiebre o malestar</li>
                     <li>Cultivos de control para verificar completa desaparición de la infeccon urinaria</li>
                     <br />
