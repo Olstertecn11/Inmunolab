@@ -34,7 +34,7 @@ const Nav = () => {
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
                 <p className='mt-3 text-white nav-text'>
-                  4a Av. 13-67 Zona 9, Guatemala
+                  7ma. Avenida 9-64 zona 9. Tercer nivel, clínica 309. Ciudad.
                 </p>
               </li>
               <li className='mt-3 mr-4 text-white nav-text'>

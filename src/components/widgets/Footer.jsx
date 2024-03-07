@@ -36,7 +36,7 @@ const Footer = () => {
           </Link>
           <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext">
             <FaMapMarker className='mr-2' />
-            4a av. 13-67 Zona 9, Guatemala
+            7ma. Avenida 9-64 zona 9. Tercer nivel, clínica 309. Ciudad.
           </Link>
           <Link className="footer-subtext">
             <FaCalendarAlt className='mr-2' />

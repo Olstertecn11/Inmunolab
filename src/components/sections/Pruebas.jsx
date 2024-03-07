@@ -24,7 +24,7 @@ const Pruebas = () => {
       <CustomSlide images={images}
         title={"Pruebas de diagnóstico"}
         titles={["Hematología", "Microbiologia Clínica"]}
-        texts={["Támbien abarcamos desde pruebas de laboratorio especializadas y análisis de muestras de sangre hasta diagnósticos precisos y tratamientos especializados adaptados a las necesidades específicas de cada paciente. A través de tecnologías de vanguardia y métodos de análisis avanzados, evaluamos exhaustivamente la composición sanguínea y la función de la médula ósea para proporcionar diagnósticos tempranos y precisos, y así facilitar el tratamiento oportuno y la gestión efectiva de diversas condiciones hematológicas.",
+        texts={["También abarcamos desde pruebas de laboratorio especializadas y análisis de muestras de sangre hasta diagnósticos precisos y tratamientos especializados adaptados a las necesidades específicas de cada paciente. A través de tecnologías de vanguardia y métodos de análisis avanzados, evaluamos exhaustivamente la composición sanguínea y la función de la médula ósea para proporcionar diagnósticos tempranos y precisos, y así facilitar el tratamiento oportuno y la gestión efectiva de diversas condiciones hematológicas.",
           "Las infecciones por agentes patógenos pueden constituir un importante problema de salud para el paciente. La detección adecuada del desarrollo de estos agentes es importante para un tratamiento eficaz."]}
         showTitle={false} showBack={false} order={true} Ids={[2, 3]}
       />
