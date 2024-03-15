@@ -168,7 +168,7 @@ const Questions = () => {
                     <li>Síntomas como dolor o ardor al orinar, presencia de sangre en la orina, fiebre o malestar</li>
                     <li>Cultivos de control para verificar completa desaparición de la infeccon urinaria</li>
                     <br />
-                    <b className='text-font-italic'> <em>TOMAR EN CUENTA QUE EL TIEMPO MAXIMO DE LA RECOLECCION DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</em> </b>
+                    <b className='text-font-italic'> <em>TOMAR EN CUENTA QUE EL TIEMPO MÁXIMO DE LA RECOLECCIÓN DE LA MUESTRA PARA SU ANÁLISIS EN EL LABORATORIO ES DE 2 HORAS.</em> </b>
                   </p>
                   <hr />
 

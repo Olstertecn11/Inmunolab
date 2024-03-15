@@ -35,7 +35,7 @@ const Home = () => {
         <h1 className='title animate__animated animate__fadeInLeft'>INMUNOLAB</h1>
         <p className='p-0 animate__animated animate__fadeInDown'>
           Somos un laboratorio de análisis clínico nivel IV, pionero en referencias hospitalarias y de laboratorios,  especializado en el área de inmunología.
-          Damos el soporte necesario en el diagnostico de enfermedades inmunes y autoinmunes. Para lo cual contamos con una amplia gama de pruebas bioquímicas, coprourológicas, hormonales y de enfermedades infecciosas.
+          Damos el soporte necesario en el diagnostico de enfermedades inmunes y autoinmunes. Para lo cual contamos con una amplia gama de pruebas bioquímicas, hormonales, enfermedades infecciosas, hematologías, urológicas y coprológicas.
         </p>
 
         <HashLink className='btn btn-0' to="/About#sec-con">Conoce Más</HashLink>
@@ -47,7 +47,7 @@ const Home = () => {
         <div className='col-md-6 nosotros mx-auto'>
           <h2 className='text-primary text-center animate__animated animate__slideInDown'>Nosotros</h2>
           <p className='p-1 text-center mx-auto animate__animated animate__slideInDown'>
-            Por más de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con el equipo de última generación.
+            Por más de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con equipo de última generación.
           </p>
           <p className='p-1 text-center mx-auto'>
             Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.

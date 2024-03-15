@@ -57,7 +57,7 @@ const Footer = () => {
         <div className="items">
           <li className='li' onClick={() => history('/About')}>Nosotros</li>
           <li className='li' onClick={() => history('/Services')}>Servicios</li>
-          <li className='li' onClick={() => history('/Contact')}>Contactanos</li>
+          <li className='li' onClick={() => history('/Contact')}>Contáctanos</li>
         </div>
       </div>
       <div className="col-md-3 network">

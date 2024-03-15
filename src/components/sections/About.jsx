@@ -14,7 +14,7 @@ const About = () => {
   useEffect(() => {
     const rutaActual = window.location.pathname;
     console.log('Ruta actual:', rutaActual);
-  }, []); // El
+  }, []);
 
 
 
