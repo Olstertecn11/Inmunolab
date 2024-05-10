@@ -1,159 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
 
-.carousel-item img{
-  filter: brightness(50%) !important;
+.carousel-item img {
+  /* filter: brightness(50%) !important; */
   width: 100%;
 }
 
-.row{
+.row {
   position: relative;
-	width: 100% !important;
-	height: 40vw !important;
-	padding: 0;
-	margin: 0 !important;
+  width: 100% !important;
+  height: 40vw !important;
+  padding: 0;
+  margin: 0 !important;
 }
 
 .services {
   height: 48vw !important;
 }
 
-.image{
-	filter: brightness(35%);
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.image {
+  filter: brightness(35%);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.title{
-	position: absolute;
-	top: 10%;
-	font-size: 11vw;
-	font-weight: bold;
-	left: 10%;
-	color: #08abd8;
-	font-family: Roboto !important;
+.title {
+  position: absolute;
+  top: 10%;
+  font-size: 11vw;
+  font-weight: bold;
+  left: 10%;
+  color: #08abd8;
+  font-family: Roboto !important;
 }
 
 
-.info-title{
-	font-size: 3vw;
-	font-weight: bold;
-	left: 10%;
-	color: #002C44;
-	font-family: Roboto !important;
+.info-title {
+  font-size: 3vw;
+  font-weight: bold;
+  left: 10%;
+  color: #002C44;
+  font-family: Roboto !important;
   text-transform: uppercase;
 }
 
 
-.p-0{
-	position: absolute;
-	top: 45%;
-	left: 10%;
-	width: 65%;
-	text-align: justify;
-	font-size: 1.5vw;
-	color: white !important;
-	font-family: Roboto;
+.p-0 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 65%;
+  text-align: justify;
+  font-size: 1.5vw;
+  color: white !important;
+  font-family: Roboto;
 }
 
-.btn-0{
-	position: absolute;
-	top: 75%;
-	left: 10%;
-	background: #08abd8 !important;
-	font-weight: bold;
-	color: white;
-	width: 12vw;
-	font-size: 1.4vw;
-	height: 4vw;
+.btn-0 {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  background: #08abd8 !important;
+  font-weight: bold;
+  color: white;
+  width: 12vw;
+  font-size: 1.4vw;
+  height: 4vw;
   padding-top: 0.9vw;
 }
 
-.btn-0:hover{
-	background: white !important;
-	color: #08abd8
+.btn-0:hover {
+  background: white !important;
+  color: #08abd8
 }
 
-.sub-row{
-	height: 55% !important;
+.sub-row {
+  height: 55% !important;
 }
 
-.img-1{
-	position: relative;
-	height: 8vw;
-	width: 40%;
-	margin-left: 5.8vw;
-	border-radius: 60%;
+.img-1 {
+  position: relative;
+  height: 8vw;
+  width: 40%;
+  margin-left: 5.8vw;
+  border-radius: 60%;
 }
 
-.img-1:hover{
-	filter: brightness(80%);
-	cursor: pointer;
+.img-1:hover {
+  filter: brightness(80%);
+  cursor: pointer;
 }
 
-.t-1{
-	font-weight: bold;
-	font-size: 1.5vw;
-	font-family: Roboto;
-	margin-top: 1vw;
+.t-1 {
+  font-weight: bold;
+  font-size: 1.5vw;
+  font-family: Roboto;
+  margin-top: 1vw;
   color: #08ABD8 !important;
 }
 
 
-.services{
+.services {
   margin-top: 6vw !important;
 }
 
-.img-background{
+.img-background {
   z-index: -1;
   position: absolute;
   bottom: 0%;
   width: 100%;
   height: 60%;
 }
-.img-background2{
+
+.img-background2 {
   position: absolute;
   top: -1%;
   width: 100%;
   height: 60%;
   transform: scaleY(-1);
 }
-.test-tube{
+
+.test-tube {
   margin-top: 0vw;
   width: 30vw;
 }
 
 
-.p-1{
+.p-1 {
   font-size: 110%;
   width: 70%;
   text-align: justify !important;
 }
 
-.text-primary{
+.text-primary {
   font-weight: bold;
 }
 
-.sub-row .col-md-3{
+.sub-row .col-md-3 {
   margin-top: 8vw;
 }
 
-.btn-nosotros{
+.btn-nosotros {
   margin-left: 19vw;
 }
 
 
-.footer{
+.footer {
   background: #002B5C;
   height: 10vw !important;
 }
-.carousel-inner{
+
+.carousel-inner {
   height: 100% !important;
 }
 
-.carousel-caption{
+.carousel-caption {
   position: absolute;
   backdrop-filter: blur(18px);
   bottom: 30% !important;
@@ -161,25 +164,25 @@
   left: 0%;
 }
 
-.carousel-item{
+.carousel-item {
   z-index: -2;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
   font-weight: bold;
   color: white;
   /* color: #002B5C; */
   font-size: 4vw
 }
 
-.carousel-caption p{
+.carousel-caption p {
   /* color: #002B5C; */
   color: white;
   font-size: 2.0vw;
   font-weight: 400;
 }
 
-.first-block{
+.first-block {
   bottom: 40% !important;
 }
 
@@ -202,7 +205,3 @@
 /*     opacity: 1; */
 /*   } */
 /* } */
-
-
-
-

@@ -12,8 +12,7 @@ import slider_1 from './../icons/Inmunolab/img_pruebas1.jpg';
 import slider_2 from './../icons/Inmunolab/img_pruebas2.jpg';
 import worker_img from './../icons/Inmunolab/worker.jpeg';
 
-import info1 from './../icons/Inmunolab/nuevoo.jpeg';
-import info2 from './../icons/Inmunolab/info2.jpeg';
+import info1 from './../icons/Inmunolab/DiaMadre.jpeg';
 
 
 
@@ -41,6 +40,18 @@ const Home = () => {
         <HashLink className='btn btn-0' to="/About#sec-con">Conoce Más</HashLink>
       </div>
 
+      <hr />
+      <br />
+      <div className="row" >
+        <div id="carouselExampleControls" className="carousel slide " data-ride="carousel" style={{ marginLeft: '30vw' }}>
+          <div className="carousel-inner" >
+            <div className="carousel-item active" style={{ background: 'none', width: '40vw' }}>
+              <img className="d-block " src={info1} alt="First slide" style={{ width: '40vw' }} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
       <hr />
 
       <div className="row services animate__animated animate__fadeInLeft">
