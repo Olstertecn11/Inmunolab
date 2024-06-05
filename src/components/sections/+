@@ -26,7 +26,7 @@ const Home = () => {
 
   const showInitialModal = () => {
     Swal.fire({
-      title: "¡Anuncio Importante!",
+      title: "Sweet!",
       width: '70%',
       height: '80%',
       html: `
@@ -37,27 +37,20 @@ Nos complace compartir con ustedes una emocionante noticia en la que ustedes for
 
 Nos llena de satisfacción anunciar la apertura de nuestras nuevas sedes, cuidadosamente diseñadas para proporcionar un entorno acogedor y altamente eficiente. Estas instalaciones cuentan con nuevos equipos automatizados de última generación, garantizando así la calidad de los resultados de los diversos análisis realizados para diagnóstico y seguimiento de nuestros pacientes.
 
-<br/>
-<br/>
-<b>
 A continuación, les proporcionamos los enlaces de ubicación de las nuevas sedes:
-</b>
-<br/>
 <br/>
 	Inmunolab Clínicas Centro Médico II: <a href="https://waze.com/ul/h9fxeh7u2k">https://waze.com/ul/h9fxeh7u2k</a> 
 <br/>
-	Inmunolab Edificio Zona Médica: <a href="https://waze.com/ul/h9fxeh4w36">https://waze.com/ul/h9fxeh4w36</a> 
-<br/>
-<br/>
+	Inmunolab Edificio Zona Médica: https://waze.com/ul/h9fxeh4w36
 Estas nuevas sedes nos permitirán estar aún más cerca de ustedes, reforzando nuestro compromiso de proporcionar servicios de excelencia. Les extendemos desde ya una cálida bienvenida a las instalaciones renovadas, donde continuaremos brindando nuestro trabajo con el mismo nivel de dedicación y profesionalismo que nos caracteriza.
 
 Agradecemos su confianza en Inmunolab.
 </p>
 
 
-`,
-      confirmButtonText: 'Entendido',
-      confirmButtonColor: '#08ABD8'
+      `,
+      text: "Modal with a custom image.",
+      imageAlt: "Custom image"
     });
   }
 

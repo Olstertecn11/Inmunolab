@@ -30,13 +30,13 @@ const Footer = () => {
           <img src={icon} className="icon" />
         </h2>
         <div className="items items-0">
-          <Link to='https://www.waze.com/live-map/directions/laboratorio-inmunolab-4a-avenida-zona-9,-guatemala?to=place.w.176619666.1766065588.27693813&from=ll.14.65694996%2C-90.51139092&utm_medium=lm_share_directions&utm_campaign=default&utm_source=waze_website' className="footer-subtext">
-            <FaWaze className='mr-2' />
-            Ubicación Waze
-          </Link>
-          <Link to='https://maps.app.goo.gl/FeM64bLmfyNrFVai8' className="footer-subtext">
+          <Link to='https://maps.app.goo.gl/nLr8AbWvJ8QBpvgaA' className="footer-subtext">
             <FaMapMarker className='mr-2' />
-            7ma. Avenida 9-64 zona 9. Tercer nivel, clínica 309. Ciudad.
+            7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
+          </Link>
+          <Link to='https://maps.app.goo.gl/YzXKLgauXiAmL3R29' className="footer-subtext">
+            <FaMapMarker className='mr-2' />
+            6ta Avenida 3-22 zona 10 Primer Nivel, Locales G y R. Ciudad
           </Link>
           <Link className="footer-subtext">
             <FaCalendarAlt className='mr-2' />

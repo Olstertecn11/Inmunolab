@@ -59,7 +59,12 @@ const Contact = () => {
             </div>
             <br />
             <p className=''>
-              <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>4a Av. 13-67 zona 9, Ciudad de Guatemala
+              <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
+              7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
+            </p>
+            <p className=''>
+              <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
+              6ta Avenida 3-22 zona 10 Primer Nivel, Locales G y R. Ciudad
             </p>
             <p className=''>
               <i className='fas fa-envelope mr-4 ' style={{ color: '#08ABD8' }}></i>
@@ -120,7 +125,7 @@ const Contact = () => {
 
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30887.931918506623!2d-90.55964558916013!3d14.59956060000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a31729598997%3A0x80cb70d5cee00e55!2sInmunolab!5e0!3m2!1ses-419!2sni!4v1702432698950!5m2!1ses-419!2sni"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9134610635188!2d-90.5186123!3d14.604005399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a38eb8a462f5%3A0xe6c35be524156885!2sInmunolab%20Edificio%20Zona%20M%C3%A9dica!5e0!3m2!1ses-419!2sgt!4v1717559514388!5m2!1ses-419!2sgt"
             width="600"
             height="450"
             style={{ border: 0 }}

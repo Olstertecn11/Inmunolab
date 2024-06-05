@@ -33,17 +33,17 @@ const Nav = () => {
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav2">
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
-                <p className='mt-3 text-white nav-text'>
-                  7ma. Avenida 9-64 zona 9. Tercer nivel, clínica 309. Ciudad.
+                <p className='mt-4 text-white nav-text'>
+                  7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
                 </p>
               </li>
-              <li className='mt-3 mr-4 text-white nav-text'>
+              <li className='mt-4 mr-4 text-white nav-text'>
                 |
               </li>
               <li>
                 <p className="text-white nav-text"> <img src='' style={{ width: '1.3vw' }} alt="" /> Lunes a Viernes de 7:00am a 4:00pm</p>
               </li>
-              <li className='mt-3 ml-4 mr-4 text-white nav-text'>
+              <li className='mt-4 ml-4 mr-4 text-white nav-text'>
                 |
               </li>
               <li >
