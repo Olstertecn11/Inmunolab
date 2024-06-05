@@ -83,18 +83,6 @@ Agradecemos su confianza en Inmunolab.
 
       <hr />
       <br />
-      <div className="row" >
-        <div id="carouselExampleControls" className="carousel slide " data-ride="carousel" style={{ marginLeft: '30vw' }}>
-          <div className="carousel-inner" >
-            <div className="carousel-item active" style={{ background: 'none', width: '40vw' }}>
-              <img className="d-block " src={info1} alt="First slide" style={{ width: '40vw' }} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <hr />
-
       <div className="row services animate__animated animate__fadeInLeft">
         <div className='col-md-6 nosotros mx-auto'>
           <h2 className='text-primary text-center animate__animated animate__slideInDown'>Nosotros</h2>
