@@ -11,7 +11,7 @@ import initial_image from './../icons/Inmunolab/test_show.jpeg';
 import slider_1 from './../icons/Inmunolab/img_pruebas1.jpg';
 import slider_2 from './../icons/Inmunolab/img_pruebas2.jpg';
 import worker_img from './../icons/Inmunolab/worker.jpeg';
-import info1 from './../icons/Inmunolab/DiaMadre.jpeg';
+import info1 from './../icons/Inmunolab/aviso_feriado.jpeg';
 import Swal from 'sweetalert2'
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -26,38 +26,15 @@ const Home = () => {
 
   const showInitialModal = () => {
     Swal.fire({
-      title: "¡Anuncio Importante!",
+      title: "<h5 style='color: #0c3c59; font-weight: bold'>¡Anuncio Importante!</h5>",
       width: '70%',
       height: '80%',
       html: `
-<p style="text-align: justify;">
-<b>Estimados pacientes, clientes y proveedores:</b>
-<br/>
-Nos complace compartir con ustedes una emocionante noticia en la que ustedes forman parte. A partir del próximo lunes 27 de mayo, Inmunolab dará inicio a una nueva etapa en nuestra trayectoria de más de 45 años al servicio de la salud de los guatemaltecos. Este hito marca un avance significativo en nuestro compromiso de proporcionar atención de la más alta calidad.
+      <img src='${info1}' />
 
-Nos llena de satisfacción anunciar la apertura de nuestras nuevas sedes, cuidadosamente diseñadas para proporcionar un entorno acogedor y altamente eficiente. Estas instalaciones cuentan con nuevos equipos automatizados de última generación, garantizando así la calidad de los resultados de los diversos análisis realizados para diagnóstico y seguimiento de nuestros pacientes.
-
-<br/>
-<br/>
-<b>
-A continuación, les proporcionamos los enlaces de ubicación de las nuevas sedes:
-</b>
-<br/>
-<br/>
-	Inmunolab Clínicas Centro Médico II: <a href="https://waze.com/ul/h9fxeh7u2k">https://waze.com/ul/h9fxeh7u2k</a> 
-<br/>
-	Inmunolab Edificio Zona Médica: <a href="https://waze.com/ul/h9fxeh4w36">https://waze.com/ul/h9fxeh4w36</a> 
-<br/>
-<br/>
-Estas nuevas sedes nos permitirán estar aún más cerca de ustedes, reforzando nuestro compromiso de proporcionar servicios de excelencia. Les extendemos desde ya una cálida bienvenida a las instalaciones renovadas, donde continuaremos brindando nuestro trabajo con el mismo nivel de dedicación y profesionalismo que nos caracteriza.
-
-Agradecemos su confianza en Inmunolab.
-</p>
-
-
-`,
+      `,
       confirmButtonText: 'Entendido',
-      confirmButtonColor: '#08ABD8'
+      confirmButtonColor: '#0c3c59'
     });
   }
 
