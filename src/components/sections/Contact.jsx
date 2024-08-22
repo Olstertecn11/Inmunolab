@@ -57,31 +57,39 @@ const Contact = () => {
                 Si tienes alguna pregunta, inquietud o simplemente deseas obtener más información sobre los servicios de laboratorio de vanguardia en inmunología y demás, no dudes en ponerte en contacto con nosotros.
               </p>
             </div>
-            <br />
-            <p className=''>
-              <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
-              7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
+            <p className='text-justify'>
+              <center>
+                <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
+                Edificio zona médica
+                7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
+              </center>
             </p>
-            <p className=''>
-              <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
-              6ta Avenida 3-22 zona 10 Primer Nivel, Locales G y R. Ciudad
+            <p className='text-justify'>
+              <center>
+                <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
+                Centro médico torre 2
+                6ta Avenida 3-22 zona 10 Primer Nivel, Locales G y R. Ciudad
+              </center>
             </p>
-            <p className=''>
-              <i className='fas fa-envelope mr-4 ' style={{ color: '#08ABD8' }}></i>
-              info@inmunolab.gt
-            </p>
-            <p className=''>
-              <i className='fas fa-phone mr-4' style={{ color: '#08ABD8' }}></i>
-              <Link to="">
-                +502 40372071
-              </Link>
-            </p>
-            <p className=''>
-              <i className='fa-brands fa-whatsapp mr-4' style={{ color: '#08ABD8' }}></i>
-              <Link to="">
-                +502 40372071
-              </Link>
-            </p>
+            <center>
+
+              <p className=''>
+                <i className='fas fa-envelope mr-4 ' style={{ color: '#08ABD8' }}></i>
+                info@inmunolab.gt
+              </p>
+              <p className=''>
+                <i className='fas fa-phone mr-4' style={{ color: '#08ABD8' }}></i>
+                <Link to="">
+                  +502 40372071
+                </Link>
+              </p>
+              <p className=''>
+                <i className='fa-brands fa-whatsapp mr-4' style={{ color: '#08ABD8' }}></i>
+                <Link to="">
+                  +502 40372071
+                </Link>
+              </p>
+            </center>
             <br />
             <hr />
             <div style={{ display: 'flex', justifyContent: 'center' }} className="mt-4 social-media">
@@ -143,7 +151,7 @@ const Contact = () => {
         </div>
       </div>
       <SweetAlert2 {...swalProps} />
-    </div>
+    </div >
   );
 }
 
