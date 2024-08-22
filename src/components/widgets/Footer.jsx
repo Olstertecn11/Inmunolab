@@ -32,10 +32,12 @@ const Footer = () => {
         <div className="items items-0">
           <Link to='https://maps.app.goo.gl/nLr8AbWvJ8QBpvgaA' className="footer-subtext">
             <FaMapMarker className='mr-2' />
+            Edificio zona médica
             7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
           </Link>
           <Link to='https://maps.app.goo.gl/YzXKLgauXiAmL3R29' className="footer-subtext">
             <FaMapMarker className='mr-2' />
+            Centro médico torre 2
             6ta Avenida 3-22 zona 10 Primer Nivel, Locales G y R. Ciudad
           </Link>
           <Link className="footer-subtext">

@@ -14,7 +14,7 @@
 }
 
 .services {
-  height: 48vw !important;
+  height: 58vw !important;
 }
 
 .image {
@@ -147,10 +147,6 @@
 }
 
 
-.footer {
-  background: #002B5C;
-  height: 10vw !important;
-}
 
 .carousel-inner {
   height: 100% !important;
