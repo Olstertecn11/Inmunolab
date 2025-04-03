@@ -39,7 +39,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    showInitialModal();
+    // showInitialModal();
     window.scrollTo(0, 0);
   }, []);
 
@@ -64,13 +64,10 @@ const Home = () => {
         <div className='col-md-6 nosotros mx-auto'>
           <h2 className='text-primary text-center animate__animated animate__slideInDown'>Nosotros</h2>
           <p className='p-1 text-center mx-auto animate__animated animate__slideInDown'>
-            Por más de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con equipo de última generación.
+            Por más de 46 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con equipo de última generación.
           </p>
           <p className='p-1 text-center mx-auto'>
-            Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
-          </p>
-          <p className='p-1 text-center mx-auto'>
-            PERSONAL CAPACITADO Y EQUIPO DE VANGUARDIA
+            <b style={{ color: '#1a4060' }}>PERSONAL CAPACITADO Y EQUIPO DE VANGUARDIA</b>
             <br />
             Contamos con profesionales y personal altamente calificado para atender la necesidad de cada paciente.
             Así como innovamos constantemente en equipos de alta tecnología y a la vanguardia de salud.

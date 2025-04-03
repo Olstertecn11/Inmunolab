@@ -1,6 +1,6 @@
 
 import icon from './../icons/Inmunolab/Logos lab/Logo Final - InmunoLab-01.jpg';
-import icon_aniv from './../icons/Inmunolab/Aniv2.png';
+import icon_aniv from './../icons/Inmunolab/Logos/nuevo_aniversario.jpg';
 import './styles/Nav.css';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
@@ -34,7 +34,7 @@ const Nav = () => {
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
                 <p className='mt-4 text-white nav-text'>
-                  7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
+                  Edificio Centro medico II.  6a Avenida 3-22 zona 10, primer nivel, locales G y R
                 </p>
               </li>
               <li className='mt-4 mr-4 text-white nav-text'>
@@ -104,7 +104,7 @@ const Nav = () => {
                   className={active === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >Contáctanos</Link>
               </li>
-              <img src={icon_aniv} alt="" style={{ width: '5vw' }} />
+              <img src={icon_aniv} alt="" style={{ width: '6vw' }} />
             </ul>
           </div>
         </div>

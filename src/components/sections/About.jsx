@@ -26,8 +26,6 @@ const About = () => {
         <p className='p-about animate__animated animate__slideInLeft'>
           Por mas de 45 años hemos dado un servicio seguro, confiable y de calidad. Contamos con personal altamente capacitado en las distintas áreas del laboratorio y con equipo de última generación.
           <br />
-          <br />
-          Así mismo disponemos de un sistema NOVA internacional con México, en donde tanto el paciente como su doctor puede acceder para verificar sus resultados en tiempo inmediato que se procesan las pruebas. Teniendo también acceso a su historial clínico.
           <br /><br />
           PERSONAL CAPACITADO Y EQUIPO DE VANGUARDIA
           <br />
@@ -35,7 +33,7 @@ const About = () => {
           Así como innovamos constantemente en equipos de alta tecnología y a la vanguardia de salud.
         </p>
         <img className="bg-img" src={img_bg} />
-      </div>
+      </div >
 
 
       <section id="sec-con" className="row" style={{ background: '#F5F9FD' }} >

@@ -60,13 +60,6 @@ const Contact = () => {
             <p className='text-justify'>
               <center>
                 <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
-                Edificio zona médica
-                7ma. Avenida 9-64 zona 9 Tercer nivel, clínica 309. Ciudad
-              </center>
-            </p>
-            <p className='text-justify'>
-              <center>
-                <i className='fas fa-location-dot mr-4 ' style={{ color: '#08ABD8' }}></i>
                 Centro médico torre 2
                 6ta Avenida 3-22 zona 10 Primer Nivel, Locales G y R. Ciudad
               </center>
@@ -133,7 +126,7 @@ const Contact = () => {
 
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9134610635188!2d-90.5186123!3d14.604005399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a38eb8a462f5%3A0xe6c35be524156885!2sInmunolab%20Edificio%20Zona%20M%C3%A9dica!5e0!3m2!1ses-419!2sgt!4v1717559514388!5m2!1ses-419!2sgt"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.7994202160285!2d-90.51048200000001!3d14.610499200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3ae8c011455%3A0x80a47bc1fde7d9aa!2sINMUNOLAB%20Cl%C3%ADnicas%20Centro%20M%C3%A9dico%20ll!5e0!3m2!1ses-419!2sgt!4v1743659900076!5m2!1ses-419!2sgt"
             width="600"
             height="450"
             style={{ border: 0 }}
