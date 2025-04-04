@@ -34,7 +34,7 @@ const Nav = () => {
             <ul className="navbar-nav nav-0">
               <li className="nav-item">
                 <p className='mt-4 text-white nav-text'>
-                  Edificio Centro medico II.  6a Avenida 3-22 zona 10, primer nivel, locales G y R
+                  Edificio Centro médico II.  6a Avenida 3-22 zona 10, primer nivel, locales G y R
                 </p>
               </li>
               <li className='mt-4 mr-4 text-white nav-text'>

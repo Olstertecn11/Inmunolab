@@ -100,7 +100,7 @@ const Home = () => {
         </div>
         <div className="col-md-3 mx-auto">
           <div className="card-body">
-            <Link to='https://maps.app.goo.gl/Jv7W9NjdqkxWm8V78'>
+            <Link to='https://maps.app.goo.gl/uJKJ4DvUAWFBF7reA'>
               <img className='img-1' src={location_icon} />
             </Link>
             <h2 className='text-center text-primary t-1'>Ubicación</h2>
