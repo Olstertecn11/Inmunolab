@@ -48,7 +48,6 @@ const Nav = () => {
               </li>
               <li >
                 <Link className='mt-3 text-white nav-text' to="https://api.whatsapp.com/send?phone=50240372071"> <i className='fab fa-whatsapp'> </i> WhatsApp</Link>
-
               </li>
             </ul>
           </div>
